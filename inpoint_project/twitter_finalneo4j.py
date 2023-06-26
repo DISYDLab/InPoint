@@ -11,10 +11,10 @@ from multiprocessing import Process
 
 
 # authorization tokens
-consumer_key = "pw0ihLFxH3nwDrd4HBd7pqUrc"
-consumer_secret = "nh8GxSyT9ebV32pb4urtwlVnE7bxbPwCYYeVnI9TmT51Y71CDk"
-access_token = "1360011857969479682-iLrxBUlqdtExwkqiN9iZsHYDXIFTZz"
-access_token_secret = "fccgx7QK05sXrURyzcCAPDtZOvEfHtOdo7G5sXHjVshdm"
+consumer_key = ""
+consumer_secret = ""
+access_token = "-"
+access_token_secret = ""
 
 # Connect to Twitter API using the secrets
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
