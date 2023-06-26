@@ -13,7 +13,7 @@ from multiprocessing import Process
 # authorization tokens
 consumer_key = ""
 consumer_secret = ""
-access_token = "-iLrxBUlqdtExwkqiN9iZsHYDXIFTZz"
+access_token = "-"
 access_token_secret = ""
 
 # Connect to Twitter API using the secrets
