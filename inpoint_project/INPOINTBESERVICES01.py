@@ -47,10 +47,10 @@ pqueue = Queue();
 
 
 # authorization tokens
-consumer_key = "pw0ihLFxH3nwDrd4HBd7pqUrc"
-consumer_secret = "nh8GxSyT9ebV32pb4urtwlVnE7bxbPwCYYeVnI9TmT51Y71CDk"
-access_token = "1360011857969479682-iLrxBUlqdtExwkqiN9iZsHYDXIFTZz"
-access_token_secret = "fccgx7QK05sXrURyzcCAPDtZOvEfHtOdo7G5sXHjVshdm"
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 # Connect to Twitter API using the secrets
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -489,19 +489,19 @@ def getLinkedinProfiles():
     driver.get('https://www.linkedin.com/')
 
 
-    email = "vasilistsakanikas@gmail.com"
-    password = "6972745067"
+    email = ""
+    password = ""
 
     actions.login(driver, email, password) # if email and password isnt given, it'll prompt in terminal
 
 
 
     #username = driver.find_element_by_name("session_key")
-    #username.send_keys('vasilistsakanikas@gmail.com')
+    #username.send_keys('')
     #sleep(0.5)
 
     #password = driver.find_element_by_name('session_password')
-    #password.send_keys('6972745067')
+    #password.send_keys('')
     #sleep(0.5)
 
     #sign_in_button = driver.find_element_by_class_name('sign-in-form__submit-button')
