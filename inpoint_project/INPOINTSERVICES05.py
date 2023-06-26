@@ -621,7 +621,7 @@ def getProfiles(myquery, q):
 
 
     email = "vasilistsakanikas@gmail.com"
-    password = "vtsakan1983"
+    password = ""
 
     actions.login(driver, email, password) # if email and password isnt given, it'll prompt in terminal
     print('check1')
