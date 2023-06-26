@@ -18,7 +18,7 @@ username.send_keys('vasilistsakanikas@gmail.com')
 sleep(0.5)
 
 password = driver.find_element_by_name('session_password')
-password.send_keys('6972745067')
+password.send_keys('')
 sleep(0.5)
 
 sign_in_button = driver.find_element_by_class_name('sign-in-form__submit-button')
