@@ -620,7 +620,6 @@ def getProfiles(myquery, q):
     driver.get('https://www.linkedin.com/')
 
 
-
     email = ""
     password = ""
 
