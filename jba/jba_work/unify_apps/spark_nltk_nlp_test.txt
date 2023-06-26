@@ -1,0 +1,430 @@
+(pyspark_env) hadoopuser@ubuntu:~/Documents/jba/unify_apps$ spark-submit -v  --master yarn  --deploy-mode client  --name spark_nltk_nlp_test_sdf_Yarn_Client  --driver-memory 4096m  --driver-cores 1  --executor-memory 5120m  --executor-cores 2  --num-executors 2  --conf spark.suffle.service.enabled=true  --conf spark.dynamicAllocation.enabled=true  --packages com.johnsnowlabs.nlp:spark-nlp_2.12:3.2.1  ~/Documents/jba/unify_apps/spark_nltk_nlp_test.py
+Using properties file: /home/hadoopuser/spark/conf/spark-defaults.conf
+Adding default property: spark.serializer=org.apache.spark.serializer.KryoSerializer
+Adding default property: spark.history.fs.logDirectory=hdfs://ubuntu:9000/user/hadoopuser/spark-logs
+Adding default property: spark.eventLog.enabled=true
+Adding default property: spark.shuffle.service.enabled=true
+Adding default property: spark.yarn.am.cores=1
+Adding default property: spark.driver.memory=4096m
+Adding default property: spark.executor.instances=2
+Adding default property: spark.default.parallelism=32
+Adding default property: spark.history.fs.cleaner.enabled=true
+Adding default property: spark.yarn.am.memory=640m
+Adding default property: spark.driver.cores=1
+Adding default property: spark.master=yarn
+Adding default property: spark.yarn.archive=hdfs:///user/hadoopuser/spark-jars/spark-libs.jar
+Adding default property: spark.history.fs.cleaner.interval=2d
+Adding default property: spark.history.fs.cleaner.maxAge=7d
+Adding default property: spark.executor.memory=5120m
+Adding default property: spark.eventLog.dir=hdfs://ubuntu:9000/user/hadoopuser/spark-logs
+Adding default property: spark.dynamicAllocation.enabled=true
+Adding default property: spark.executor.cores=2
+Adding default property: spark.driver.allowMultipleContexts=true
+Adding default property: spark.sql.shuffle.partitions=32
+Parsed arguments:
+  master                  yarn
+  deployMode              client
+  executorMemory          5120m
+  executorCores           2
+  totalExecutorCores      null
+  propertiesFile          /home/hadoopuser/spark/conf/spark-defaults.conf
+  driverMemory            4096m
+  driverCores             1
+  driverExtraClassPath    null
+  driverExtraLibraryPath  null
+  driverExtraJavaOptions  null
+  supervise               false
+  queue                   null
+  numExecutors            2
+  files                   null
+  pyFiles                 null
+  archives                null
+  mainClass               null
+  primaryResource         file:/home/hadoopuser/Documents/jba/unify_apps/spark_nltk_nlp_test.py
+  name                    spark_nltk_nlp_test_sdf_Yarn_Client
+  childArgs               []
+  jars                    null
+  packages                com.johnsnowlabs.nlp:spark-nlp_2.12:3.2.1
+  packagesExclusions      null
+  repositories            null
+  verbose                 true
+
+Spark properties used, including those specified through
+ --conf and those from the properties file /home/hadoopuser/spark/conf/spark-defaults.conf:
+  (spark.default.parallelism,32)
+  (spark.history.fs.cleaner.enabled,true)
+  (spark.driver.memory,4096m)
+  (spark.executor.memory,5120m)
+  (spark.executor.instances,2)
+  (spark.suffle.service.enabled,true)
+  (spark.driver.allowMultipleContexts,true)
+  (spark.eventLog.enabled,true)
+  (spark.history.fs.cleaner.maxAge,7d)
+  (spark.yarn.archive,hdfs:///user/hadoopuser/spark-jars/spark-libs.jar)
+  (spark.driver.cores,1)
+  (spark.serializer,org.apache.spark.serializer.KryoSerializer)
+  (spark.shuffle.service.enabled,true)
+  (spark.history.fs.logDirectory,hdfs://ubuntu:9000/user/hadoopuser/spark-logs)
+  (spark.yarn.am.cores,1)
+  (spark.eventLog.dir,hdfs://ubuntu:9000/user/hadoopuser/spark-logs)
+  (spark.master,yarn)
+  (spark.yarn.am.memory,640m)
+  (spark.dynamicAllocation.enabled,true)
+  (spark.executor.cores,2)
+  (spark.history.fs.cleaner.interval,2d)
+  (spark.sql.shuffle.partitions,32)
+
+    
+:: loading settings :: url = jar:file:/home/hadoopuser/spark/jars/ivy-2.4.0.jar!/org/apache/ivy/core/settings/ivysettings.xml
+Ivy Default Cache set to: /home/hadoopuser/.ivy2/cache
+The jars for the packages stored in: /home/hadoopuser/.ivy2/jars
+com.johnsnowlabs.nlp#spark-nlp_2.12 added as a dependency
+:: resolving dependencies :: org.apache.spark#spark-submit-parent-213aa0c3-8174-49a1-934b-6c630daccc07;1.0
+	confs: [default]
+	found com.johnsnowlabs.nlp#spark-nlp_2.12;3.1.1 in central
+	found com.typesafe#config;1.3.0 in central
+	found org.rocksdb#rocksdbjni;6.5.3 in central
+	found com.amazonaws#aws-java-sdk-bundle;1.11.603 in central
+	found com.github.universal-automata#liblevenshtein;3.0.0 in central
+	found com.google.code.findbugs#annotations;3.0.1 in central
+	found net.jcip#jcip-annotations;1.0 in central
+	found com.google.code.findbugs#jsr305;3.0.1 in central
+	found com.google.protobuf#protobuf-java-util;3.0.0-beta-3 in central
+	found com.google.protobuf#protobuf-java;3.0.0-beta-3 in central
+	found com.google.code.gson#gson;2.3 in central
+	found it.unimi.dsi#fastutil;7.0.12 in central
+	found org.projectlombok#lombok;1.16.8 in central
+	found org.slf4j#slf4j-api;1.7.21 in central
+	found com.navigamez#greex;1.0 in central
+	found dk.brics.automaton#automaton;1.11-8 in central
+	found org.json4s#json4s-ext_2.12;3.5.3 in central
+	found joda-time#joda-time;2.9.5 in central
+	found org.joda#joda-convert;1.8.1 in central
+	found com.johnsnowlabs.nlp#tensorflow-cpu_2.12;0.3.1 in central
+	found net.sf.trove4j#trove4j;3.0.3 in central
+:: resolution report :: resolve 404ms :: artifacts dl 16ms
+	:: modules in use:
+	com.amazonaws#aws-java-sdk-bundle;1.11.603 from central in [default]
+	com.github.universal-automata#liblevenshtein;3.0.0 from central in [default]
+	com.google.code.findbugs#annotations;3.0.1 from central in [default]
+	com.google.code.findbugs#jsr305;3.0.1 from central in [default]
+	com.google.code.gson#gson;2.3 from central in [default]
+	com.google.protobuf#protobuf-java;3.0.0-beta-3 from central in [default]
+	com.google.protobuf#protobuf-java-util;3.0.0-beta-3 from central in [default]
+	com.johnsnowlabs.nlp#spark-nlp_2.12;3.1.1 from central in [default]
+	com.johnsnowlabs.nlp#tensorflow-cpu_2.12;0.3.1 from central in [default]
+	com.navigamez#greex;1.0 from central in [default]
+	com.typesafe#config;1.3.0 from central in [default]
+	dk.brics.automaton#automaton;1.11-8 from central in [default]
+	it.unimi.dsi#fastutil;7.0.12 from central in [default]
+	joda-time#joda-time;2.9.5 from central in [default]
+	net.jcip#jcip-annotations;1.0 from central in [default]
+	net.sf.trove4j#trove4j;3.0.3 from central in [default]
+	org.joda#joda-convert;1.8.1 from central in [default]
+	org.json4s#json4s-ext_2.12;3.5.3 from central in [default]
+	org.projectlombok#lombok;1.16.8 from central in [default]
+	org.rocksdb#rocksdbjni;6.5.3 from central in [default]
+	org.slf4j#slf4j-api;1.7.21 from central in [default]
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      default     |   21  |   0   |   0   |   0   ||   21  |   0   |
+	---------------------------------------------------------------------
+:: retrieving :: org.apache.spark#spark-submit-parent-213aa0c3-8174-49a1-934b-6c630daccc07
+	confs: [default]
+	0 artifacts copied, 21 already retrieved (0kB/10ms)
+Main class:
+org.apache.spark.deploy.PythonRunner
+Arguments:
+file:/home/hadoopuser/Documents/jba/unify_apps/spark_nltk_nlp_test.py
+file:///home/hadoopuser/.ivy2/jars/com.johnsnowlabs.nlp_spark-nlp_2.12-3.1.1.jar,file:///home/hadoopuser/.ivy2/jars/com.typesafe_config-1.3.0.jar,file:///home/hadoopuser/.ivy2/jars/org.rocksdb_rocksdbjni-6.5.3.jar,file:///home/hadoopuser/.ivy2/jars/com.amazonaws_aws-java-sdk-bundle-1.11.603.jar,file:///home/hadoopuser/.ivy2/jars/com.github.universal-automata_liblevenshtein-3.0.0.jar,file:///home/hadoopuser/.ivy2/jars/com.navigamez_greex-1.0.jar,file:///home/hadoopuser/.ivy2/jars/org.json4s_json4s-ext_2.12-3.5.3.jar,file:///home/hadoopuser/.ivy2/jars/com.johnsnowlabs.nlp_tensorflow-cpu_2.12-0.3.1.jar,file:///home/hadoopuser/.ivy2/jars/net.sf.trove4j_trove4j-3.0.3.jar,file:///home/hadoopuser/.ivy2/jars/com.google.code.findbugs_annotations-3.0.1.jar,file:///home/hadoopuser/.ivy2/jars/com.google.protobuf_protobuf-java-util-3.0.0-beta-3.jar,file:///home/hadoopuser/.ivy2/jars/com.google.protobuf_protobuf-java-3.0.0-beta-3.jar,file:///home/hadoopuser/.ivy2/jars/it.unimi.dsi_fastutil-7.0.12.jar,file:///home/hadoopuser/.ivy2/jars/org.projectlombok_lombok-1.16.8.jar,file:///home/hadoopuser/.ivy2/jars/org.slf4j_slf4j-api-1.7.21.jar,file:///home/hadoopuser/.ivy2/jars/net.jcip_jcip-annotations-1.0.jar,file:///home/hadoopuser/.ivy2/jars/com.google.code.findbugs_jsr305-3.0.1.jar,file:///home/hadoopuser/.ivy2/jars/com.google.code.gson_gson-2.3.jar,file:///home/hadoopuser/.ivy2/jars/dk.brics.automaton_automaton-1.11-8.jar,file:///home/hadoopuser/.ivy2/jars/joda-time_joda-time-2.9.5.jar,file:///home/hadoopuser/.ivy2/jars/org.joda_joda-convert-1.8.1.jar
+Spark config:
+(spark.serializer,org.apache.spark.serializer.KryoSerializer)
+(spark.history.fs.logDirectory,hdfs://ubuntu:9000/user/hadoopuser/spark-logs)
+(spark.eventLog.enabled,true)
+(spark.shuffle.service.enabled,true)
+(spark.app.name,spark_nltk_nlp_test_sdf_Yarn_Client)
+(spark.yarn.am.cores,1)
+(spark.driver.memory,4096m)
+(spark.executor.instances,2)
+(spark.submit.pyFiles,/home/hadoopuser/.ivy2/jars/com.johnsnowlabs.nlp_spark-nlp_2.12-3.1.1.jar,/home/hadoopuser/.ivy2/jars/com.typesafe_config-1.3.0.jar,/home/hadoopuser/.ivy2/jars/org.rocksdb_rocksdbjni-6.5.3.jar,/home/hadoopuser/.ivy2/jars/com.amazonaws_aws-java-sdk-bundle-1.11.603.jar,/home/hadoopuser/.ivy2/jars/com.github.universal-automata_liblevenshtein-3.0.0.jar,/home/hadoopuser/.ivy2/jars/com.navigamez_greex-1.0.jar,/home/hadoopuser/.ivy2/jars/org.json4s_json4s-ext_2.12-3.5.3.jar,/home/hadoopuser/.ivy2/jars/com.johnsnowlabs.nlp_tensorflow-cpu_2.12-0.3.1.jar,/home/hadoopuser/.ivy2/jars/net.sf.trove4j_trove4j-3.0.3.jar,/home/hadoopuser/.ivy2/jars/com.google.code.findbugs_annotations-3.0.1.jar,/home/hadoopuser/.ivy2/jars/com.google.protobuf_protobuf-java-util-3.0.0-beta-3.jar,/home/hadoopuser/.ivy2/jars/com.google.protobuf_protobuf-java-3.0.0-beta-3.jar,/home/hadoopuser/.ivy2/jars/it.unimi.dsi_fastutil-7.0.12.jar,/home/hadoopuser/.ivy2/jars/org.projectlombok_lombok-1.16.8.jar,/home/hadoopuser/.ivy2/jars/org.slf4j_slf4j-api-1.7.21.jar,/home/hadoopuser/.ivy2/jars/net.jcip_jcip-annotations-1.0.jar,/home/hadoopuser/.ivy2/jars/com.google.code.findbugs_jsr305-3.0.1.jar,/home/hadoopuser/.ivy2/jars/com.google.code.gson_gson-2.3.jar,/home/hadoopuser/.ivy2/jars/dk.brics.automaton_automaton-1.11-8.jar,/home/hadoopuser/.ivy2/jars/joda-time_joda-time-2.9.5.jar,/home/hadoopuser/.ivy2/jars/org.joda_joda-convert-1.8.1.jar)
+(spark.default.parallelism,32)
+(spark.history.fs.cleaner.enabled,true)
+(spark.yarn.am.memory,640m)
+(spark.suffle.service.enabled,true)
+(spark.driver.cores,1)
+(spark.yarn.dist.pyFiles,file:///home/hadoopuser/.ivy2/jars/com.johnsnowlabs.nlp_spark-nlp_2.12-3.1.1.jar,file:///home/hadoopuser/.ivy2/jars/com.typesafe_config-1.3.0.jar,file:///home/hadoopuser/.ivy2/jars/org.rocksdb_rocksdbjni-6.5.3.jar,file:///home/hadoopuser/.ivy2/jars/com.amazonaws_aws-java-sdk-bundle-1.11.603.jar,file:///home/hadoopuser/.ivy2/jars/com.github.universal-automata_liblevenshtein-3.0.0.jar,file:///home/hadoopuser/.ivy2/jars/com.navigamez_greex-1.0.jar,file:///home/hadoopuser/.ivy2/jars/org.json4s_json4s-ext_2.12-3.5.3.jar,file:///home/hadoopuser/.ivy2/jars/com.johnsnowlabs.nlp_tensorflow-cpu_2.12-0.3.1.jar,file:///home/hadoopuser/.ivy2/jars/net.sf.trove4j_trove4j-3.0.3.jar,file:///home/hadoopuser/.ivy2/jars/com.google.code.findbugs_annotations-3.0.1.jar,file:///home/hadoopuser/.ivy2/jars/com.google.protobuf_protobuf-java-util-3.0.0-beta-3.jar,file:///home/hadoopuser/.ivy2/jars/com.google.protobuf_protobuf-java-3.0.0-beta-3.jar,file:///home/hadoopuser/.ivy2/jars/it.unimi.dsi_fastutil-7.0.12.jar,file:///home/hadoopuser/.ivy2/jars/org.projectlombok_lombok-1.16.8.jar,file:///home/hadoopuser/.ivy2/jars/org.slf4j_slf4j-api-1.7.21.jar,file:///home/hadoopuser/.ivy2/jars/net.jcip_jcip-annotations-1.0.jar,file:///home/hadoopuser/.ivy2/jars/com.google.code.findbugs_jsr305-3.0.1.jar,file:///home/hadoopuser/.ivy2/jars/com.google.code.gson_gson-2.3.jar,file:///home/hadoopuser/.ivy2/jars/dk.brics.automaton_automaton-1.11-8.jar,file:///home/hadoopuser/.ivy2/jars/joda-time_joda-time-2.9.5.jar,file:///home/hadoopuser/.ivy2/jars/org.joda_joda-convert-1.8.1.jar)
+(spark.submit.deployMode,client)
+(spark.master,yarn)
+(spark.yarn.archive,hdfs:///user/hadoopuser/spark-jars/spark-libs.jar)
+(spark.history.fs.cleaner.interval,2d)
+(spark.history.fs.cleaner.maxAge,7d)
+(spark.executor.memory,5120m)
+(spark.eventLog.dir,hdfs://ubuntu:9000/user/hadoopuser/spark-logs)
+(spark.dynamicAllocation.enabled,true)
+(spark.executor.cores,2)
+(spark.repl.local.jars,file:///home/hadoopuser/.ivy2/jars/com.johnsnowlabs.nlp_spark-nlp_2.12-3.1.1.jar,file:///home/hadoopuser/.ivy2/jars/com.typesafe_config-1.3.0.jar,file:///home/hadoopuser/.ivy2/jars/org.rocksdb_rocksdbjni-6.5.3.jar,file:///home/hadoopuser/.ivy2/jars/com.amazonaws_aws-java-sdk-bundle-1.11.603.jar,file:///home/hadoopuser/.ivy2/jars/com.github.universal-automata_liblevenshtein-3.0.0.jar,file:///home/hadoopuser/.ivy2/jars/com.navigamez_greex-1.0.jar,file:///home/hadoopuser/.ivy2/jars/org.json4s_json4s-ext_2.12-3.5.3.jar,file:///home/hadoopuser/.ivy2/jars/com.johnsnowlabs.nlp_tensorflow-cpu_2.12-0.3.1.jar,file:///home/hadoopuser/.ivy2/jars/net.sf.trove4j_trove4j-3.0.3.jar,file:///home/hadoopuser/.ivy2/jars/com.google.code.findbugs_annotations-3.0.1.jar,file:///home/hadoopuser/.ivy2/jars/com.google.protobuf_protobuf-java-util-3.0.0-beta-3.jar,file:///home/hadoopuser/.ivy2/jars/com.google.protobuf_protobuf-java-3.0.0-beta-3.jar,file:///home/hadoopuser/.ivy2/jars/it.unimi.dsi_fastutil-7.0.12.jar,file:///home/hadoopuser/.ivy2/jars/org.projectlombok_lombok-1.16.8.jar,file:///home/hadoopuser/.ivy2/jars/org.slf4j_slf4j-api-1.7.21.jar,file:///home/hadoopuser/.ivy2/jars/net.jcip_jcip-annotations-1.0.jar,file:///home/hadoopuser/.ivy2/jars/com.google.code.findbugs_jsr305-3.0.1.jar,file:///home/hadoopuser/.ivy2/jars/com.google.code.gson_gson-2.3.jar,file:///home/hadoopuser/.ivy2/jars/dk.brics.automaton_automaton-1.11-8.jar,file:///home/hadoopuser/.ivy2/jars/joda-time_joda-time-2.9.5.jar,file:///home/hadoopuser/.ivy2/jars/org.joda_joda-convert-1.8.1.jar)
+(spark.driver.allowMultipleContexts,true)
+(spark.yarn.isPython,true)
+(spark.yarn.dist.jars,file:///home/hadoopuser/.ivy2/jars/com.johnsnowlabs.nlp_spark-nlp_2.12-3.1.1.jar,file:///home/hadoopuser/.ivy2/jars/com.typesafe_config-1.3.0.jar,file:///home/hadoopuser/.ivy2/jars/org.rocksdb_rocksdbjni-6.5.3.jar,file:///home/hadoopuser/.ivy2/jars/com.amazonaws_aws-java-sdk-bundle-1.11.603.jar,file:///home/hadoopuser/.ivy2/jars/com.github.universal-automata_liblevenshtein-3.0.0.jar,file:///home/hadoopuser/.ivy2/jars/com.navigamez_greex-1.0.jar,file:///home/hadoopuser/.ivy2/jars/org.json4s_json4s-ext_2.12-3.5.3.jar,file:///home/hadoopuser/.ivy2/jars/com.johnsnowlabs.nlp_tensorflow-cpu_2.12-0.3.1.jar,file:///home/hadoopuser/.ivy2/jars/net.sf.trove4j_trove4j-3.0.3.jar,file:///home/hadoopuser/.ivy2/jars/com.google.code.findbugs_annotations-3.0.1.jar,file:///home/hadoopuser/.ivy2/jars/com.google.protobuf_protobuf-java-util-3.0.0-beta-3.jar,file:///home/hadoopuser/.ivy2/jars/com.google.protobuf_protobuf-java-3.0.0-beta-3.jar,file:///home/hadoopuser/.ivy2/jars/it.unimi.dsi_fastutil-7.0.12.jar,file:///home/hadoopuser/.ivy2/jars/org.projectlombok_lombok-1.16.8.jar,file:///home/hadoopuser/.ivy2/jars/org.slf4j_slf4j-api-1.7.21.jar,file:///home/hadoopuser/.ivy2/jars/net.jcip_jcip-annotations-1.0.jar,file:///home/hadoopuser/.ivy2/jars/com.google.code.findbugs_jsr305-3.0.1.jar,file:///home/hadoopuser/.ivy2/jars/com.google.code.gson_gson-2.3.jar,file:///home/hadoopuser/.ivy2/jars/dk.brics.automaton_automaton-1.11-8.jar,file:///home/hadoopuser/.ivy2/jars/joda-time_joda-time-2.9.5.jar,file:///home/hadoopuser/.ivy2/jars/org.joda_joda-convert-1.8.1.jar)
+(spark.sql.shuffle.partitions,32)
+Classpath elements:
+file:///home/hadoopuser/.ivy2/jars/com.johnsnowlabs.nlp_spark-nlp_2.12-3.1.1.jar
+file:///home/hadoopuser/.ivy2/jars/com.typesafe_config-1.3.0.jar
+file:///home/hadoopuser/.ivy2/jars/org.rocksdb_rocksdbjni-6.5.3.jar
+file:///home/hadoopuser/.ivy2/jars/com.amazonaws_aws-java-sdk-bundle-1.11.603.jar
+file:///home/hadoopuser/.ivy2/jars/com.github.universal-automata_liblevenshtein-3.0.0.jar
+file:///home/hadoopuser/.ivy2/jars/com.navigamez_greex-1.0.jar
+file:///home/hadoopuser/.ivy2/jars/org.json4s_json4s-ext_2.12-3.5.3.jar
+file:///home/hadoopuser/.ivy2/jars/com.johnsnowlabs.nlp_tensorflow-cpu_2.12-0.3.1.jar
+file:///home/hadoopuser/.ivy2/jars/net.sf.trove4j_trove4j-3.0.3.jar
+file:///home/hadoopuser/.ivy2/jars/com.google.code.findbugs_annotations-3.0.1.jar
+file:///home/hadoopuser/.ivy2/jars/com.google.protobuf_protobuf-java-util-3.0.0-beta-3.jar
+file:///home/hadoopuser/.ivy2/jars/com.google.protobuf_protobuf-java-3.0.0-beta-3.jar
+file:///home/hadoopuser/.ivy2/jars/it.unimi.dsi_fastutil-7.0.12.jar
+file:///home/hadoopuser/.ivy2/jars/org.projectlombok_lombok-1.16.8.jar
+file:///home/hadoopuser/.ivy2/jars/org.slf4j_slf4j-api-1.7.21.jar
+file:///home/hadoopuser/.ivy2/jars/net.jcip_jcip-annotations-1.0.jar
+file:///home/hadoopuser/.ivy2/jars/com.google.code.findbugs_jsr305-3.0.1.jar
+file:///home/hadoopuser/.ivy2/jars/com.google.code.gson_gson-2.3.jar
+file:///home/hadoopuser/.ivy2/jars/dk.brics.automaton_automaton-1.11-8.jar
+file:///home/hadoopuser/.ivy2/jars/joda-time_joda-time-2.9.5.jar
+file:///home/hadoopuser/.ivy2/jars/org.joda_joda-convert-1.8.1.jar
+
+
+
+
+
+2021-07-10 18:51:19,295 INFO yarn.Client: Application report for application_1625904310450_0012 (state: ACCEPTED)
+2021-07-10 18:51:19,368 INFO yarn.Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: root.hadoopuser
+	 start time: 1625932278272
+	 final status: UNDEFINED
+	 tracking URL: http://ubuntu:8088/proxy/application_1625904310450_0012/
+	 user: hadoopuser
+2021-07-10 18:51:20,370 INFO yarn.Client: Application report for application_1625904310450_0012 (state: ACCEPTED)
+2021-07-10 18:51:21,372 INFO yarn.Client: Application report for application_1625904310450_0012 (state: ACCEPTED)
+2021-07-10 18:51:22,374 INFO yarn.Client: Application report for application_1625904310450_0012 (state: ACCEPTED)
+2021-07-10 18:51:23,376 INFO yarn.Client: Application report for application_1625904310450_0012 (state: RUNNING)
+2021-07-10 18:51:23,376 INFO yarn.Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 10.10.14.201
+	 ApplicationMaster RPC port: -1
+	 queue: root.hadoopuser
+	 start time: 1625932278272
+	 final status: UNDEFINED
+	 tracking URL: http://ubuntu:8088/proxy/application_1625904310450_0012/
+	 user: hadoopuser
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+-------------------+
+|text                                                                                                                                         |favourite_count|retweet_count|created_at         |
++---------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+-------------------+
+|RT @DrEricDing: A mixed schedule of vaccines where a shot of Pfizer #COVID19 vaccine is given four weeks after an AstraZeneca shot will pro… |0              |837          |2021-07-04 23:59:36|
+|RT @PeterWMurphy1: The Morrison Govt is not interested in protecting the health of Australians.👇 #auspol #COVID19Aus #Pfizer #AstraZeneca h…|0              |41           |2021-07-04 23:56:36|
++---------------------------------------------------------------------------------------------------------------------------------------------+---------------+-------------+-------------------+
+only showing top 2 rows
+
+
+
+<class 'pyspark.sql.dataframe.DataFrame'>
+root
+ |-- text: string (nullable = true)
+ |-- favourite_count: integer (nullable = true)
+ |-- retweet_count: integer (nullable = true)
+ |-- created_at: timestamp (nullable = true)
+ |-- document: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- annotatorType: string (nullable = true)
+ |    |    |-- begin: integer (nullable = false)
+ |    |    |-- end: integer (nullable = false)
+ |    |    |-- result: string (nullable = true)
+ |    |    |-- metadata: map (nullable = true)
+ |    |    |    |-- key: string
+ |    |    |    |-- value: string (valueContainsNull = true)
+ |    |    |-- embeddings: array (nullable = true)
+ |    |    |    |-- element: float (containsNull = false)
+ |-- sentence_embeddings: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- annotatorType: string (nullable = true)
+ |    |    |-- begin: integer (nullable = false)
+ |    |    |-- end: integer (nullable = false)
+ |    |    |-- result: string (nullable = true)
+ |    |    |-- metadata: map (nullable = true)
+ |    |    |    |-- key: string
+ |    |    |    |-- value: string (valueContainsNull = true)
+ |    |    |-- embeddings: array (nullable = true)
+ |    |    |    |-- element: float (containsNull = false)
+ |-- sentiment: array (nullable = true)
+ |    |-- element: struct (containsNull = true)
+ |    |    |-- annotatorType: string (nullable = true)
+ |    |    |-- begin: integer (nullable = false)
+ |    |    |-- end: integer (nullable = false)
+ |    |    |-- result: string (nullable = true)
+ |    |    |-- metadata: map (nullable = true)
+ |    |    |    |-- key: string
+ |    |    |    |-- value: string (valueContainsNull = true)
+ |    |    |-- embeddings: array (nullable = true)
+ |    |    |    |-- element: float (containsNull = false)
+
+None
+/home/hadoopuser/spark/python/lib/pyspark.zip/pyspark/sql/pandas/conversion.py:87: UserWarning: toPandas attempted Arrow optimization because 'spark.sql.execution.arrow.pyspark.enabled' is set to true; however, failed by the reason below:
+  Unsupported type in conversion to Arrow: ArrayType(StructType(List(StructField(annotatorType,StringType,true),StructField(begin,IntegerType,false),StructField(end,IntegerType,false),StructField(result,StringType,true),StructField(metadata,MapType(StringType,StringType,true),true),StructField(embeddings,ArrayType(FloatType,false),true))),true)
+Attempting non-optimization as 'spark.sql.execution.arrow.pyspark.fallback.enabled' is set to true.
+2021-07-10 18:52:14,724 INFO codegen.CodeGenerator: Code generated in 36.195879 ms
+
+
++--------------------+--------------------+
+|                text|           sentiment|
++--------------------+--------------------+
+|https://t.co/T2Vz...|[{category, 0, 22...|
+|RT @robinmonotti2...|[{category, 0, 14...|
++--------------------+--------------------+
+only showing top 2 rows
+
+
++--------------------+----------+-------------+-------------+
+|                text|result_nlp| negative_nlp| positive_nlp|
++--------------------+----------+-------------+-------------+
+|https://t.co/T2Vz...|  positive|3.6029668E-22|          1.0|
+|RT @robinmonotti2...|  negative|          1.0|1.5234004E-21|
++--------------------+----------+-------------+-------------+
+only showing top 2 rows
+
+[nltk_data] Downloading package vader_lexicon to
+[nltk_data]     /home/hadoopuser/nltk_data...
+[nltk_data]   Package vader_lexicon is already up-to-date!
+
+
+
+<pandas.io.formats.style.Styler object at 0x7fba141bbdf0>
+root
+ |-- text: string (nullable = true)
+ |-- result_nlp: string (nullable = true)
+ |-- negative_nlp: string (nullable = true)
+ |-- positive_nlp: string (nullable = true)
+ |-- sentiment: map (nullable = true)
+ |    |-- key: string
+ |    |-- value: double (valueContainsNull = true)
+
+None
+
+
++--------------------+----------+-------------+-------------+-------------+-------------+------------+-------------+
+|                text|result_nlp| negative_nlp| positive_nlp|negative_nltk|positive_nltk|neutral_nltk|compound_nltk|
++--------------------+----------+-------------+-------------+-------------+-------------+------------+-------------+
+|https://t.co/T2Vz...|  positive|3.6029668E-22|          1.0|          0.0|        0.158|       0.842|       0.5106|
+|RT @robinmonotti2...|  negative|          1.0|1.5234004E-21|          0.0|          0.0|         1.0|          0.0|
++--------------------+----------+-------------+-------------+-------------+-------------+------------+-------------+
+only showing top 2 rows
+
+before write
+2021-07-10 18:54:27,122 INFO output.FileOutputCommitter: File Output Committer Algorithm version is 1
+2021-07-10 18:54:27,122 INFO output.FileOutputCommitter: FileOutputCommitter skip cleanup _temporary folders under output directory:false, ignore cleanup failures: false
+2021-07-10 18:54:27,123 INFO datasources.SQLHadoopMapReduceCommitProtocol: Using output committer class org.apache.hadoop.mapreduce.lib.output.FileOutputCommitter
+2021-07-10 18:54:27,171 INFO spark.SparkContext: Starting job: save at NativeMethodAccessorImpl.java:0
+2021-07-10 18:54:27,172 INFO scheduler.DAGScheduler: Got job 15 (save at NativeMethodAccessorImpl.java:0) with 32 output partitions
+2021-07-10 18:54:27,172 INFO scheduler.DAGScheduler: Final stage: ResultStage 27 (save at NativeMethodAccessorImpl.java:0)
+2021-07-10 18:54:27,172 INFO scheduler.DAGScheduler: Parents of final stage: List(ShuffleMapStage 26)
+2021-07-10 18:54:27,172 INFO scheduler.DAGScheduler: Missing parents: List()
+2021-07-10 18:54:27,176 INFO scheduler.DAGScheduler: Submitting ResultStage 27 (MapPartitionsRDD[96] at save at NativeMethodAccessorImpl.java:0), which has no missing parents
+2021-07-10 18:54:27,202 INFO memory.MemoryStore: Block broadcast_28 stored as values in memory (estimated size 262.7 KiB, free 979.7 MiB)
+2021-07-10 18:54:27,203 INFO memory.MemoryStore: Block broadcast_28_piece0 stored as bytes in memory (estimated size 95.2 KiB, free 979.6 MiB)
+2021-07-10 18:54:27,204 INFO storage.BlockManagerInfo: Added broadcast_28_piece0 in memory on ubuntu:42033 (size: 95.2 KiB, free: 995.9 MiB)
+2021-07-10 18:54:27,204 INFO spark.SparkContext: Created broadcast 28 from broadcast at DAGScheduler.scala:1388
+2021-07-10 18:54:27,209 INFO scheduler.DAGScheduler: Submitting 32 missing tasks from ResultStage 27 (MapPartitionsRDD[96] at save at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14))
+2021-07-10 18:54:27,209 INFO cluster.YarnScheduler: Adding task set 27.0 with 32 tasks resource profile 0
+2021-07-10 18:54:27,211 INFO scheduler.TaskSetManager: Starting task 0.0 in stage 27.0 (TID 172) (slave3, executor 1, partition 0, PROCESS_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:27,211 INFO scheduler.TaskSetManager: Starting task 2.0 in stage 27.0 (TID 173) (slave2, executor 2, partition 2, PROCESS_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:27,213 INFO scheduler.TaskSetManager: Starting task 1.0 in stage 27.0 (TID 174) (slave3, executor 1, partition 1, PROCESS_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:27,213 INFO scheduler.TaskSetManager: Starting task 3.0 in stage 27.0 (TID 175) (slave2, executor 2, partition 3, PROCESS_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:27,224 INFO storage.BlockManagerInfo: Added broadcast_28_piece0 in memory on slave3:37609 (size: 95.2 KiB, free: 1539.2 MiB)
+2021-07-10 18:54:27,226 INFO storage.BlockManagerInfo: Added broadcast_28_piece0 in memory on slave2:33213 (size: 95.2 KiB, free: 1542.0 MiB)
+2021-07-10 18:54:28,214 INFO spark.ExecutorAllocationManager: Requesting 9 new executors because tasks are backlogged (new desired total will be 9 for resource profile id: 0)
+2021-07-10 18:54:29,228 INFO spark.ExecutorAllocationManager: Requesting 1 new executor because tasks are backlogged (new desired total will be 10 for resource profile id: 0)
+2021-07-10 18:54:30,239 INFO spark.ExecutorAllocationManager: Requesting 2 new executors because tasks are backlogged (new desired total will be 12 for resource profile id: 0)
+2021-07-10 18:54:31,177 INFO scheduler.TaskSetManager: Starting task 4.0 in stage 27.0 (TID 176) (slave3, executor 5, partition 4, NODE_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:31,177 INFO scheduler.TaskSetManager: Starting task 5.0 in stage 27.0 (TID 177) (slave3, executor 5, partition 5, NODE_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:31,191 INFO storage.BlockManagerInfo: Added broadcast_28_piece0 in memory on slave3:43833 (size: 95.2 KiB, free: 1618.3 MiB)
+2021-07-10 18:54:31,254 INFO spark.ExecutorAllocationManager: Requesting 4 new executors because tasks are backlogged (new desired total will be 16 for resource profile id: 0)
+2021-07-10 18:54:34,176 INFO scheduler.TaskSetManager: Starting task 6.0 in stage 27.0 (TID 178) (slave4, executor 6, partition 6, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:34,177 INFO scheduler.TaskSetManager: Starting task 7.0 in stage 27.0 (TID 179) (slave1, executor 3, partition 7, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:34,177 INFO scheduler.TaskSetManager: Starting task 8.0 in stage 27.0 (TID 180) (slave4, executor 7, partition 8, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:34,178 INFO scheduler.TaskSetManager: Starting task 9.0 in stage 27.0 (TID 181) (slave2, executor 8, partition 9, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:34,178 INFO scheduler.TaskSetManager: Starting task 10.0 in stage 27.0 (TID 182) (slave1, executor 4, partition 10, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:34,179 INFO scheduler.TaskSetManager: Starting task 11.0 in stage 27.0 (TID 183) (slave4, executor 6, partition 11, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:34,179 INFO scheduler.TaskSetManager: Starting task 12.0 in stage 27.0 (TID 184) (slave1, executor 3, partition 12, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:34,179 INFO scheduler.TaskSetManager: Starting task 13.0 in stage 27.0 (TID 185) (slave4, executor 7, partition 13, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:34,180 INFO scheduler.TaskSetManager: Starting task 14.0 in stage 27.0 (TID 186) (slave2, executor 8, partition 14, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:34,180 INFO scheduler.TaskSetManager: Starting task 15.0 in stage 27.0 (TID 187) (slave1, executor 4, partition 15, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:34,190 INFO storage.BlockManagerInfo: Added broadcast_28_piece0 in memory on slave2:33437 (size: 95.2 KiB, free: 1618.3 MiB)
+2021-07-10 18:54:34,194 INFO storage.BlockManagerInfo: Added broadcast_28_piece0 in memory on slave4:32969 (size: 95.2 KiB, free: 1618.3 MiB)
+2021-07-10 18:54:34,194 INFO storage.BlockManagerInfo: Added broadcast_28_piece0 in memory on slave4:40051 (size: 95.2 KiB, free: 1618.3 MiB)
+2021-07-10 18:54:34,199 INFO storage.BlockManagerInfo: Added broadcast_28_piece0 in memory on slave1:43663 (size: 95.2 KiB, free: 1618.3 MiB)
+2021-07-10 18:54:34,209 INFO storage.BlockManagerInfo: Added broadcast_28_piece0 in memory on slave1:36551 (size: 95.2 KiB, free: 1618.3 MiB)
+2021-07-10 18:54:37,216 INFO scheduler.TaskSetManager: Starting task 16.0 in stage 27.0 (TID 188) (slave3, executor 1, partition 16, PROCESS_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:37,223 INFO scheduler.TaskSetManager: Finished task 0.0 in stage 27.0 (TID 172) in 10012 ms on slave3 (executor 1) (1/32)
+2021-07-10 18:54:37,278 INFO scheduler.TaskSetManager: Starting task 17.0 in stage 27.0 (TID 189) (slave3, executor 1, partition 17, PROCESS_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:37,284 INFO scheduler.TaskSetManager: Finished task 1.0 in stage 27.0 (TID 174) in 10071 ms on slave3 (executor 1) (2/32)
+2021-07-10 18:54:37,423 INFO scheduler.TaskSetManager: Finished task 2.0 in stage 27.0 (TID 173) in 10212 ms on slave2 (executor 2) (3/32)
+2021-07-10 18:54:37,446 INFO scheduler.TaskSetManager: Finished task 3.0 in stage 27.0 (TID 175) in 10233 ms on slave2 (executor 2) (4/32)
+2021-07-10 18:54:41,751 INFO scheduler.TaskSetManager: Starting task 18.0 in stage 27.0 (TID 190) (slave3, executor 5, partition 18, NODE_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:41,751 INFO scheduler.TaskSetManager: Finished task 5.0 in stage 27.0 (TID 177) in 10574 ms on slave3 (executor 5) (5/32)
+2021-07-10 18:54:41,752 INFO scheduler.TaskSetManager: Starting task 19.0 in stage 27.0 (TID 191) (slave3, executor 5, partition 19, NODE_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:41,753 INFO scheduler.TaskSetManager: Finished task 4.0 in stage 27.0 (TID 176) in 10577 ms on slave3 (executor 5) (6/32)
+2021-07-10 18:54:44,176 INFO scheduler.TaskSetManager: Starting task 20.0 in stage 27.0 (TID 192) (slave2, executor 2, partition 20, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:44,177 INFO scheduler.TaskSetManager: Starting task 21.0 in stage 27.0 (TID 193) (slave2, executor 2, partition 21, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:44,946 INFO scheduler.TaskSetManager: Starting task 22.0 in stage 27.0 (TID 194) (slave2, executor 8, partition 22, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:44,947 INFO scheduler.TaskSetManager: Finished task 14.0 in stage 27.0 (TID 186) in 10767 ms on slave2 (executor 8) (7/32)
+2021-07-10 18:54:44,948 INFO scheduler.TaskSetManager: Starting task 23.0 in stage 27.0 (TID 195) (slave2, executor 8, partition 23, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:44,949 INFO scheduler.TaskSetManager: Finished task 9.0 in stage 27.0 (TID 181) in 10771 ms on slave2 (executor 8) (8/32)
+2021-07-10 18:54:45,570 INFO scheduler.TaskSetManager: Starting task 24.0 in stage 27.0 (TID 196) (slave4, executor 6, partition 24, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:45,570 INFO scheduler.TaskSetManager: Finished task 6.0 in stage 27.0 (TID 178) in 11394 ms on slave4 (executor 6) (9/32)
+2021-07-10 18:54:45,603 INFO scheduler.TaskSetManager: Starting task 25.0 in stage 27.0 (TID 197) (slave4, executor 6, partition 25, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:45,604 INFO scheduler.TaskSetManager: Finished task 11.0 in stage 27.0 (TID 183) in 11426 ms on slave4 (executor 6) (10/32)
+2021-07-10 18:54:45,955 INFO scheduler.TaskSetManager: Starting task 26.0 in stage 27.0 (TID 198) (slave4, executor 7, partition 26, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:45,956 INFO scheduler.TaskSetManager: Finished task 13.0 in stage 27.0 (TID 185) in 11777 ms on slave4 (executor 7) (11/32)
+2021-07-10 18:54:45,962 INFO scheduler.TaskSetManager: Starting task 27.0 in stage 27.0 (TID 199) (slave4, executor 7, partition 27, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:45,962 INFO scheduler.TaskSetManager: Finished task 8.0 in stage 27.0 (TID 180) in 11785 ms on slave4 (executor 7) (12/32)
+2021-07-10 18:54:46,004 INFO scheduler.TaskSetManager: Starting task 28.0 in stage 27.0 (TID 200) (slave1, executor 4, partition 28, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:46,005 INFO scheduler.TaskSetManager: Finished task 10.0 in stage 27.0 (TID 182) in 11827 ms on slave1 (executor 4) (13/32)
+2021-07-10 18:54:46,027 INFO scheduler.TaskSetManager: Starting task 29.0 in stage 27.0 (TID 201) (slave1, executor 3, partition 29, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:46,028 INFO scheduler.TaskSetManager: Finished task 7.0 in stage 27.0 (TID 179) in 11852 ms on slave1 (executor 3) (14/32)
+2021-07-10 18:54:46,029 INFO scheduler.TaskSetManager: Starting task 30.0 in stage 27.0 (TID 202) (slave1, executor 3, partition 30, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:46,029 INFO scheduler.TaskSetManager: Finished task 12.0 in stage 27.0 (TID 184) in 11850 ms on slave1 (executor 3) (15/32)
+2021-07-10 18:54:46,048 INFO scheduler.TaskSetManager: Starting task 31.0 in stage 27.0 (TID 203) (slave1, executor 4, partition 31, RACK_LOCAL, 4464 bytes) taskResourceAssignments Map()
+2021-07-10 18:54:46,049 INFO scheduler.TaskSetManager: Finished task 15.0 in stage 27.0 (TID 187) in 11869 ms on slave1 (executor 4) (16/32)
+2021-07-10 18:54:47,051 INFO scheduler.TaskSetManager: Finished task 16.0 in stage 27.0 (TID 188) in 9835 ms on slave3 (executor 1) (17/32)
+2021-07-10 18:54:47,120 INFO scheduler.TaskSetManager: Finished task 17.0 in stage 27.0 (TID 189) in 9842 ms on slave3 (executor 1) (18/32)
+2021-07-10 18:54:51,573 INFO scheduler.TaskSetManager: Finished task 19.0 in stage 27.0 (TID 191) in 9821 ms on slave3 (executor 5) (19/32)
+2021-07-10 18:54:51,607 INFO scheduler.TaskSetManager: Finished task 18.0 in stage 27.0 (TID 190) in 9856 ms on slave3 (executor 5) (20/32)
+2021-07-10 18:54:54,729 INFO scheduler.TaskSetManager: Finished task 21.0 in stage 27.0 (TID 193) in 10552 ms on slave2 (executor 2) (21/32)
+2021-07-10 18:54:54,754 INFO scheduler.TaskSetManager: Finished task 20.0 in stage 27.0 (TID 192) in 10578 ms on slave2 (executor 2) (22/32)
+2021-07-10 18:54:55,536 INFO scheduler.TaskSetManager: Finished task 23.0 in stage 27.0 (TID 195) in 10589 ms on slave2 (executor 8) (23/32)
+2021-07-10 18:54:55,548 INFO scheduler.TaskSetManager: Finished task 22.0 in stage 27.0 (TID 194) in 10602 ms on slave2 (executor 8) (24/32)
+2021-07-10 18:54:56,038 INFO scheduler.TaskSetManager: Finished task 24.0 in stage 27.0 (TID 196) in 10468 ms on slave4 (executor 6) (25/32)
+2021-07-10 18:54:56,061 INFO scheduler.TaskSetManager: Finished task 25.0 in stage 27.0 (TID 197) in 10458 ms on slave4 (executor 6) (26/32)
+2021-07-10 18:54:56,339 INFO scheduler.TaskSetManager: Finished task 26.0 in stage 27.0 (TID 198) in 10384 ms on slave4 (executor 7) (27/32)
+2021-07-10 18:54:56,350 INFO scheduler.TaskSetManager: Finished task 27.0 in stage 27.0 (TID 199) in 10388 ms on slave4 (executor 7) (28/32)
+2021-07-10 18:54:56,815 INFO scheduler.TaskSetManager: Finished task 28.0 in stage 27.0 (TID 200) in 10811 ms on slave1 (executor 4) (29/32)
+2021-07-10 18:54:56,844 INFO scheduler.TaskSetManager: Finished task 29.0 in stage 27.0 (TID 201) in 10817 ms on slave1 (executor 3) (30/32)
+2021-07-10 18:54:56,864 INFO scheduler.TaskSetManager: Finished task 30.0 in stage 27.0 (TID 202) in 10835 ms on slave1 (executor 3) (31/32)
+2021-07-10 18:54:56,936 INFO scheduler.TaskSetManager: Finished task 31.0 in stage 27.0 (TID 203) in 10888 ms on slave1 (executor 4) (32/32)
+2021-07-10 18:54:56,936 INFO cluster.YarnScheduler: Removed TaskSet 27.0, whose tasks have all completed, from pool 
+2021-07-10 18:54:56,936 INFO scheduler.DAGScheduler: ResultStage 27 (save at NativeMethodAccessorImpl.java:0) finished in 29.759 s
+2021-07-10 18:54:56,937 INFO scheduler.DAGScheduler: Job 15 is finished. Cancelling potential speculative or zombie tasks for this job
+2021-07-10 18:54:56,937 INFO cluster.YarnScheduler: Killing all running tasks in stage 27: Stage finished
+2021-07-10 18:54:56,937 INFO scheduler.DAGScheduler: Job 15 finished: save at NativeMethodAccessorImpl.java:0, took 29.765783 s
+2021-07-10 18:54:57,046 INFO datasources.FileFormatWriter: Write Job b7cc4e9a-bcb9-4b6f-8657-e68d2a4e8b4a committed.
+2021-07-10 18:54:57,049 INFO datasources.FileFormatWriter: Finished processing stats for write job b7cc4e9a-bcb9-4b6f-8657-e68d2a4e8b4a.
+after write
+***********************************************************
+Spark App: SparkNLPandVADER Sentiment Analysis finished :-)
+***********************************************************
+

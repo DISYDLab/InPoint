@@ -1,0 +1,5 @@
+# Remove stop words
+remover = StopWordsRemover(inputCol='words_token', outputCol='words_clean')
+df_words_no_stopw = remover.transform(df_words_token).select('id', 'words_clean')
+
+

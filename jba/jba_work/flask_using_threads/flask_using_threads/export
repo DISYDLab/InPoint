@@ -1,0 +1,26 @@
+start-history-server.sh;export FLASK_APP=flask_threads;export FLASK_ENV=production;flask run -p 5001
+
+
+LOCAL MODE
+spark-submit --master local --name flask_threads_Spark_Local --conf spark.suffle.service.enabled=true --conf spark.dynamicAllocation.enabled=false --conf "spark.mongodb.input.uri=mongodb://ubuntu/test.myCollection?readPreference=primaryPreferred" --conf "spark.mongodb.output.uri=mongodb://ubuntu/test.myCollection" --packages org.mongodb.spark:mongo-spark-connector_2.12:3.0.1 ~/Documents/flask_using_threads/flask_threads.py
+
+
+
+PYSPARK_PIN_THREAD=true 
+spark-submit -v \
+ --master yarn \
+ --deploy-mode client \
+ --name flask_threads_Yarn_Client \
+ --driver-memory 4096m \
+ --driver-cores 1 \
+ --executor-memory 8192m \
+ --executor-cores 2 \
+ --num-executors 1 \
+ --conf spark.suffle.service.enabled=true \
+ --conf spark.dynamicAllocation.enabled=true \
+ --conf "spark.mongodb.input.uri=mongodb://ubuntu/test.myCollection?readPreference=primaryPreferred" \
+ --conf "spark.mongodb.output.uri=mongodb://ubuntu/test.myCollection" \
+ --packages org.mongodb.spark:mongo-spark-connector_2.12:3.0.1 ~/Documents/jba/flask_using_threads/flask_using_threads/flask_threads_jba2.py
+ 
+ 
+

@@ -1,0 +1,32 @@
+Guides
+=======================================================
+Getting Started
+https://docs.mongodb.com/guides/
+
+
+Import Data into MongoDB:
+https://docs.mongodb.com/guides/server/import/
+
+Structure your Data for MongoDB:
+https://docs.mongodb.com/guides/server/introduction/
+
+
+CRUD Guides: Create, Read, Update, and Delete Data
+=====================================================
+Insert Data into MongoDB
+https://docs.mongodb.com/guides/server/insert/
+
+Read Data from MongoDB
+https://docs.mongodb.com/guides/server/read/
+
+Read Data from MongoDB With Queries
+https://docs.mongodb.com/guides/server/read_queries/
+
+Read Data using Operators and Compound Queries
+https://docs.mongodb.com/guides/server/read_operators/
+
+Update Data in MongoDB
+https://docs.mongodb.com/guides/server/update/
+
+Delete Data from MongoDB
+https://docs.mongodb.com/guides/server/delete/

@@ -1,0 +1,7 @@
+{
+    "python.pythonPath": "/opt/anaconda/envs/pyspark_env/bin/python",
+    "jupyter.jupyterServerType": "local",
+    "files.watcherExclude": {
+        "**/target": true
+    }
+}

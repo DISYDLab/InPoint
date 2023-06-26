@@ -1,0 +1,103 @@
+
+#---------------------------------------------------------------------
+# TWITTER APPS 
+#---------------------------------------------------------------------
+# tweets_search_api_coffee_island_sdf.py
+#---------------------------------------------------------------------
+
+spark-submit -v \
+ --master yarn \
+ --deploy-mode client \
+ --name tweets_search_api_coffee_island_unify_Yarn_Client \
+ --driver-memory 1024m \
+ --driver-cores 1 \
+ --executor-memory 1512m \
+ --executor-cores 2 \
+ --num-executors 2 \
+ --conf spark.suffle.service.enabled=true \
+ --conf spark.dynamicAllocation.enabled=true \
+ --packages org.mongodb.spark:mongo-spark-connector_2.12:3.0.1 \
+ ~/Documents/jba/unify_apps/tweets_search_api_coffee_island_sdf.py
+
+ spark-submit -v \
+ --master local \
+ --driver-memory 1024m \
+ --driver-cores 1 \
+ --executor-memory 1512m \
+ --executor-cores 2 \
+ --num-executors 2 \
+ --conf spark.suffle.service.enabled=true \
+ --conf spark.dynamicAllocation.enabled=true \
+ --packages org.mongodb.spark:mongo-spark-connector_2.12:3.0.1 \
+ ~/Documents/jba/unify_apps/tweets_search_api_coffee_island_sdf.py
+ 
+ 
+#---------------------------------------------------------------------------
+import site
+import sys
+
+site.addsitedir('/the/path')  # Always appends to end
+print(sys.path)
+
+python -c import site;import sys;site.addsitedir('/the/path');print(sys.path)
+
+#----------------------------------------------------------------------------
+#spark_nltk_nlp_test.py
+#----------------------------------------------------------------------------
+
+spark-submit -v \
+ --master yarn \
+ --deploy-mode client \
+ --name spark_nltk_nlp_test_unify_Yarn_Client \
+ --driver-memory 1024m \
+ --driver-cores 1 \
+ --executor-memory 1512m \
+ --executor-cores 2 \
+ --num-executors 2 \
+ --conf spark.suffle.service.enabled=true \
+ --conf spark.dynamicAllocation.enabled=true \
+ --packages com.johnsnowlabs.nlp:spark-nlp_2.12:3.2.1 \
+ ~/Documents/jba/unify_apps/spark_nltk_nlp_test.py
+ 
+
+ #-----------------------------------------------------------------------------
+ # IN PROBLEM
+ #Run First Time_____________________________________
+ spark-submit -v \
+ --master local \
+ --name spark_nltk_nlp_test_unify_Local \
+ --driver-memory 5120m \
+ --driver-cores 1 \
+ --packages com.johnsnowlabs.nlp:spark-nlp_2.12:3.2.1 \
+ ~/Documents/jba/unify_apps/spark_nltk_nlp_test.py
+ 
+
+#----------------------------------------------------------------------------
+# flask_threads_unify.py
+#----------------------------------------------------------------------------
+
+PYSPARK_PIN_THREAD=true 
+spark-submit -v \
+ --master yarn \
+ --deploy-mode client \
+ --name flask_threads_unify_Yarn_Client \
+ --driver-memory 1024m \
+ --driver-cores 1 \
+ --executor-memory 1512m \
+ --executor-cores 2 \
+ --num-executors 2 \
+ --conf spark.suffle.service.enabled=true \
+ --conf spark.dynamicAllocation.enabled=true \
+ --conf "spark.mongodb.input.uri=mongodb://127.0.0.1/test.myCollection?readPreference=primaryPreferred" \
+ --conf "spark.mongodb.output.uri=mongodb://127.0.0.1/test.myCollection" \
+ --packages org.mongodb.spark:mongo-spark-connector_2.12:3.0.1  ~/Documents/jba/unify_apps/flask_threads_unify_r4.py
+ 
+ 
+ 
+ Queries:
+ =========
+ 
+ http://195.251.13.83:5001/tweets?user=test&search_words=CoffeeIsland_GR+OR+(coffee+island)&date_since=2022-02-05&date_until=2022-02-06&lang=el
+ 
+ http://195.251.13.83:5001/tweets_sentiment_results?user=test&search_words=CoffeeIsland_GR+OR+%28coffee+island%29&date_since=2022-01-25&date_until=2022-01-29&lang=el
+

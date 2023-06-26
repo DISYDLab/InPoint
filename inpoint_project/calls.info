@@ -1,0 +1,8 @@
+http://ubuntu:5001/api/v1/inpoint/services/proximitygraph?twaccount=@coffeeisland_gr&depth=2&searchwords=coffee
+
+http://ubuntu:5001/api/v1/inpoint/services/getLinkedinProfiles?myquery=coffee
+
+http://ubuntu:5001/api/v1/inpoint/services/tweetsentiment?searchwords=coffee&numTweets=20&numRuns=5
+
+http://ubuntu:5001/api/v1/inpoint/services/createcollection?myurl=https://abcnews.go.com
+http://ubuntu:5001/api/v1/inpoint/services/clustercreatecollection?myurl=https://abcnews.go.com

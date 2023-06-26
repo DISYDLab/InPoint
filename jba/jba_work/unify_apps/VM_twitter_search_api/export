@@ -1,0 +1,12 @@
+start-history-server.sh;export FLASK_APP=flask_threads;export FLASK_ENV=production;flask run -p 5001
+
+
+
+spark-submit --master local --name flask_threads_Spark_Local --conf spark.suffle.service.enabled=true --conf spark.dynamicAllocation.enabled=false --conf "spark.mongodb.input.uri=mongodb://ubuntu/test.myCollection?readPreference=primaryPreferred" --conf "spark.mongodb.output.uri=mongodb://ubuntu/test.myCollection" --packages org.mongodb.spark:mongo-spark-connector_2.12:3.0.0 ~/Documents/twitter_search_api/flask_threads.py
+
+
+spark-submit --master local --name flask_threads_Spark_Local --conf spark.suffle.service.enabled=true --conf spark.dynamicAllocation.enabled=false --conf "spark.mongodb.input.uri=mongodb://ubuntu/tweets_scoresDB.tweets_scores?readPreference=primaryPreferred" --conf "spark.mongodb.output.uri=mongodb://ubuntu/tweets_scoresDB.tweets_scores" --packages org.mongodb.spark:mongo-spark-connector_2.12:3.0.0 ~/Documents/twitter_search_api/flask_threads_jba2.py
+
+spark-submit --master local --name flask_threads_Spark_Local --conf spark.suffle.service.enabled=true --conf spark.dynamicAllocation.enabled=false --conf "spark.mongodb.input.uri=mongodb://ubuntu/tweets_scoresDB.tweets_scores?readPreference=primaryPreferred" --conf "spark.mongodb.output.uri=mongodb://ubuntu/tweets_scoresDB.tweets_scores" --packages org.mongodb.spark:mongo-spark-connector_2.12:3.0.0 ~/Documents/twitter_search_api/flask_threads_jba3.py
+
+The jars for the packages stored in: /home/hadoopuser/.ivy2/jars

@@ -1,0 +1,790 @@
+text,favourite_count,retweet_count,created_at
+"Status(_api=<tweepy.api.API object at 0x7f72724d81d0>, _json={'created_at': 'Mon Jun 28 23:51:05 +0000 2021', 'id': 1409660656316424194, 'id_str': '1409660656316424194', 'full_text': '@CursedFootball Individualism vs Collectivism hence why France lost… unfortunately these greedy self opinionated footballers are here to stay until the vacuous fan base who find love island opinion wake up and smell the coffee', 'truncated': False, 'display_text_range': [16, 226], 'entities': {'hashtags': [], 'symbols': [], 'user_mentions': [{'screen_name': 'CursedFootball', 'name': 'football images that precede unfortunate events', 'id': 1129767161063444481, 'id_str': '1129767161063444481', 'indices': [0, 15]}], 'urls': []}, 'metadata': {'iso_language_code': 'en', 'result_type': 'recent'}, 'source': '<a href=""http://twitter.com/download/iphone"" rel=""nofollow"">Twitter for iPhone</a>', 'in_reply_to_status_id': 1409615863075033092, 'in_reply_to_status_id_str': '1409615863075033092', 'in_reply_to_user_id': 1129767161063444481, 'in_reply_to_user_id_str': '1129767161063444481', 'in_reply_to_screen_name': 'CursedFootball', 'user': {'id': 213741757, 'id_str': '213741757', 'name': 'Laugh', 'screen_name': 'Man_ofYorkshire', 'location': '', 'description': 'Big fan of boxing, engineering,', 'url': None, 'entities': {'description': {'urls': []}}, 'protected': False, 'followers_count': 162, 'friends_count': 585, 'listed_count': 4, 'created_at': 'Tue Nov 09 17:45:05 +0000 2010', 'favourites_count': 6228, 'utc_offset': None, 'time_zone': None, 'geo_enabled': True, 'verified': False, 'statuses_count': 3361, 'lang': None, 'contributors_enabled': False, 'is_translator': False, 'is_translation_enabled': False, 'profile_background_color': 'C0DEED', 'profile_background_image_url': 'http://abs.twimg.com/images/themes/theme1/bg.png', 'profile_background_image_url_https': 'https://abs.twimg.com/images/themes/theme1/bg.png', 'profile_background_tile': True, 'profile_image_url': 'http://pbs.twimg.com/profile_images/1310143118927372290/boEQZ6F9_normal.jpg', 'profile_image_url_https': 'https://pbs.twimg.com/profile_images/1310143118927372290/boEQZ6F9_normal.jpg', 'profile_link_color': '0084B4', 'profile_sidebar_border_color': 'C0DEED', 'profile_sidebar_fill_color': 'DDEEF6', 'profile_text_color': '333333', 'profile_use_background_image': True, 'has_extended_profile': True, 'default_profile': False, 'default_profile_image': False, 'following': False, 'follow_request_sent': False, 'notifications': False, 'translator_type': 'none', 'withheld_in_countries': []}, 'geo': None, 'coordinates': None, 'place': None, 'contributors': None, 'is_quote_status': False, 'retweet_count': 0, 'favorite_count': 0, 'favorited': False, 'retweeted': False, 'lang': 'en'}, created_at=datetime.datetime(2021, 6, 28, 23, 51, 5), id=1409660656316424194, id_str='1409660656316424194', full_text='@CursedFootball Individualism vs Collectivism hence why France lost… unfortunately these greedy self opinionated footballers are here to stay until the vacuous fan base who find love island opinion wake up and smell the coffee', truncated=False, display_text_range=[16, 226], entities={'hashtags': [], 'symbols': [], 'user_mentions': [{'screen_name': 'CursedFootball', 'name': 'football images that precede unfortunate events', 'id': 1129767161063444481, 'id_str': '1129767161063444481', 'indices': [0, 15]}], 'urls': []}, metadata={'iso_language_code': 'en', 'result_type': 'recent'}, source='Twitter for iPhone', source_url='http://twitter.com/download/iphone', in_reply_to_status_id=1409615863075033092, in_reply_to_status_id_str='1409615863075033092', in_reply_to_user_id=1129767161063444481, in_reply_to_user_id_str='1129767161063444481', in_reply_to_screen_name='CursedFootball', author=User(_api=<tweepy.api.API object at 0x7f72724d81d0>, _json={'id': 213741757, 'id_str': '213741757', 'name': 'Laugh', 'screen_name': 'Man_ofYorkshire', 'location': '', 'description': 'Big fan of boxing, engineering,', 'url': None, 'entities': {'description': {'urls': []}}, 'protected': False, 'followers_count': 162, 'friends_count': 585, 'listed_count': 4, 'created_at': 'Tue Nov 09 17:45:05 +0000 2010', 'favourites_count': 6228, 'utc_offset': None, 'time_zone': None, 'geo_enabled': True, 'verified': False, 'statuses_count': 3361, 'lang': None, 'contributors_enabled': False, 'is_translator': False, 'is_translation_enabled': False, 'profile_background_color': 'C0DEED', 'profile_background_image_url': 'http://abs.twimg.com/images/themes/theme1/bg.png', 'profile_background_image_url_https': 'https://abs.twimg.com/images/themes/theme1/bg.png', 'profile_background_tile': True, 'profile_image_url': 'http://pbs.twimg.com/profile_images/1310143118927372290/boEQZ6F9_normal.jpg', 'profile_image_url_https': 'https://pbs.twimg.com/profile_images/1310143118927372290/boEQZ6F9_normal.jpg', 'profile_link_color': '0084B4', 'profile_sidebar_border_color': 'C0DEED', 'profile_sidebar_fill_color': 'DDEEF6', 'profile_text_color': '333333', 'profile_use_background_image': True, 'has_extended_profile': True, 'default_profile': False, 'default_profile_image': False, 'following': False, 'follow_request_sent': False, 'notifications': False, 'translator_type': 'none', 'withheld_in_countries': []}, id=213741757, id_str='213741757', name='Laugh', screen_name='Man_ofYorkshire', location='', description='Big fan of boxing, engineering,', url=None, entities={'description': {'urls': []}}, protected=False, followers_count=162, friends_count=585, listed_count=4, created_at=datetime.datetime(2010, 11, 9, 17, 45, 5), favourites_count=6228, utc_offset=None, time_zone=None, geo_enabled=True, verified=False, statuses_count=3361, lang=None, contributors_enabled=False, is_translator=False, is_translation_enabled=False, profile_background_color='C0DEED', profile_background_image_url='http://abs.twimg.com/images/themes/theme1/bg.png', profile_background_image_url_https='https://abs.twimg.com/images/themes/theme1/bg.png', profile_background_tile=True, profile_image_url='http://pbs.twimg.com/profile_images/1310143118927372290/boEQZ6F9_normal.jpg', profile_image_url_https='https://pbs.twimg.com/profile_images/1310143118927372290/boEQZ6F9_normal.jpg', profile_link_color='0084B4', profile_sidebar_border_color='C0DEED', profile_sidebar_fill_color='DDEEF6', profile_text_color='333333', profile_use_background_image=True, has_extended_profile=True, default_profile=False, default_profile_image=False, following=False, follow_request_sent=False, notifications=False, translator_type='none', withheld_in_countries=[]), user=User(_api=<tweepy.api.API object at 0x7f72724d81d0>, _json={'id': 213741757, 'id_str': '213741757', 'name': 'Laugh', 'screen_name': 'Man_ofYorkshire', 'location': '', 'description': 'Big fan of boxing, engineering,', 'url': None, 'entities': {'description': {'urls': []}}, 'protected': False, 'followers_count': 162, 'friends_count': 585, 'listed_count': 4, 'created_at': 'Tue Nov 09 17:45:05 +0000 2010', 'favourites_count': 6228, 'utc_offset': None, 'time_zone': None, 'geo_enabled': True, 'verified': False, 'statuses_count': 3361, 'lang': None, 'contributors_enabled': False, 'is_translator': False, 'is_translation_enabled': False, 'profile_background_color': 'C0DEED', 'profile_background_image_url': 'http://abs.twimg.com/images/themes/theme1/bg.png', 'profile_background_image_url_https': 'https://abs.twimg.com/images/themes/theme1/bg.png', 'profile_background_tile': True, 'profile_image_url': 'http://pbs.twimg.com/profile_images/1310143118927372290/boEQZ6F9_normal.jpg', 'profile_image_url_https': 'https://pbs.twimg.com/profile_images/1310143118927372290/boEQZ6F9_normal.jpg', 'profile_link_color': '0084B4', 'profile_sidebar_border_color': 'C0DEED', 'profile_sidebar_fill_color': 'DDEEF6', 'profile_text_color': '333333', 'profile_use_background_image': True, 'has_extended_profile': True, 'default_profile': False, 'default_profile_image': False, 'following': False, 'follow_request_sent': False, 'notifications': False, 'translator_type': 'none', 'withheld_in_countries': []}, id=213741757, id_str='213741757', name='Laugh', screen_name='Man_ofYorkshire', location='', description='Big fan of boxing, engineering,', url=None, entities={'description': {'urls': []}}, protected=False, followers_count=162, friends_count=585, listed_count=4, created_at=datetime.datetime(2010, 11, 9, 17, 45, 5), favourites_count=6228, utc_offset=None, time_zone=None, geo_enabled=True, verified=False, statuses_count=3361, lang=None, contributors_enabled=False, is_translator=False, is_translation_enabled=False, profile_background_color='C0DEED', profile_background_image_url='http://abs.twimg.com/images/themes/theme1/bg.png', profile_background_image_url_https='https://abs.twimg.com/images/themes/theme1/bg.png', profile_background_tile=True, profile_image_url='http://pbs.twimg.com/profile_images/1310143118927372290/boEQZ6F9_normal.jpg', profile_image_url_https='https://pbs.twimg.com/profile_images/1310143118927372290/boEQZ6F9_normal.jpg', profile_link_color='0084B4', profile_sidebar_border_color='C0DEED', profile_sidebar_fill_color='DDEEF6', profile_text_color='333333', profile_use_background_image=True, has_extended_profile=True, default_profile=False, default_profile_image=False, following=False, follow_request_sent=False, notifications=False, translator_type='none', withheld_in_countries=[]), geo=None, coordinates=None, place=None, contributors=None, is_quote_status=False, retweet_count=0, favorite_count=0, favorited=False, retweeted=False, lang='en')",0,0,2021-06-28 23:51:05
+"Status(_api=<tweepy.api.API object at 0x7f72724d81d0>, _json={'created_at': 'Mon Jun 28 23:43:18 +0000 2021', 'id': 1409658697580630024, 'id_str': '1409658697580630024', 'full_text': 'RT @SFloef: Happy to report the hang over is gone. Slept 10 hours last night. Got up and drank a cup of coffee and now getting ready to wor…', 'truncated': False, 'display_text_range': [0, 140], 'entities': {'hashtags': [], 'symbols': [], 'user_mentions': [{'screen_name': 'SFloef', 'name': 'Redneck girl', 'id': 1364661480319307780, 'id_str': '1364661480319307780', 'indices': [3, 10]}], 'urls': []}, 'metadata': {'iso_language_code': 'en', 'result_type': 'recent'}, 'source': '<a href=""http://twitter.com/download/android"" rel=""nofollow"">Twitter for Android</a>', 'in_reply_to_status_id': None, 'in_reply_to_status_id_str': None, 'in_reply_to_user_id': None, 'in_reply_to_user_id_str': None, 'in_reply_to_screen_name': None, 'user': {'id': 822916627104731136, 'id_str': '822916627104731136', 'name': 'Robert Philbrick', 'screen_name': 'RobertPhilbri12', 'location': 'USA', 'description': 'Government & Politics NFL MLB Harley-Davidson rifles and pistols no porn no no lists= block and most importantly Maga Trump Pence 20/20', 'url': None, 'entities': {'description': {'urls': []}}, 'protected': False, 'followers_count': 9315, 'friends_count': 9501, 'listed_count': 2, 'created_at': 'Sat Jan 21 21:19:47 +0000 2017', 'favourites_count': 108104, 'utc_offset': None, 'time_zone': None, 'geo_enabled': False, 'verified': False, 'statuses_count': 182219, 'lang': None, 'contributors_enabled': False, 'is_translator': False, 'is_translation_enabled': False, 'profile_background_color': 'F5F8FA', 'profile_background_image_url': None, 'profile_background_image_url_https': None, 'profile_background_tile': False, 'profile_image_url': 'http://pbs.twimg.com/profile_images/848664387414052864/OJ-RMR4e_normal.jpg', 'profile_image_url_https': 'https://pbs.twimg.com/profile_images/848664387414052864/OJ-RMR4e_normal.jpg', 'profile_banner_url': 'https://pbs.twimg.com/profile_banners/822916627104731136/1491172385', 'profile_link_color': '1DA1F2', 'profile_sidebar_border_color': 'C0DEED', 'profile_sidebar_fill_color': 'DDEEF6', 'profile_text_color': '333333', 'profile_use_background_image': True, 'has_extended_profile': False, 'default_profile': True, 'default_profile_image': False, 'following': False, 'follow_request_sent': False, 'notifications': False, 'translator_type': 'none', 'withheld_in_countries': []}, 'geo': None, 'coordinates': None, 'place': None, 'contributors': None, 'retweeted_status': {'created_at': 'Mon Jun 28 12:09:54 +0000 2021', 'id': 1409484199808090117, 'id_str': '1409484199808090117', 'full_text': 'Happy to report the hang over is gone. Slept 10 hours last night. Got up and drank a cup of coffee and now getting ready to work out. I will never drink another Long Island Tea as long as I live. Then again I have saidnthat before.', 'truncated': False, 'display_text_range': [0, 231], 'entities': {'hashtags': [], 'symbols': [], 'user_mentions': [], 'urls': []}, 'metadata': {'iso_language_code': 'en', 'result_type': 'recent'}, 'source': '<a href=""http://twitter.com/download/android"" rel=""nofollow"">Twitter for Android</a>', 'in_reply_to_status_id': None, 'in_reply_to_status_id_str': None, 'in_reply_to_user_id': None, 'in_reply_to_user_id_str': None, 'in_reply_to_screen_name': None, 'user': {'id': 1364661480319307780, 'id_str': '1364661480319307780', 'name': 'Redneck girl', 'screen_name': 'SFloef', 'location': 'United States', 'description': 'Patriotic All American Girl', 'url': None, 'entities': {'description': {'urls': []}}, 'protected': False, 'followers_count': 18746, 'friends_count': 14434, 'listed_count': 5, 'created_at': 'Wed Feb 24 19:40:40 +0000 2021', 'favourites_count': 21933, 'utc_offset': None, 'time_zone': None, 'geo_enabled': False, 'verified': False, 'statuses_count': 11670, 'lang': None, 'contributors_enabled': False, 'is_translator': False, 'is_translation_enabled': False, 'profile_background_color': 'F5F8FA', 'profile_background_image_url': None, 'profile_background_image_url_https': None, 'profile_background_tile': False, 'profile_image_url': 'http://pbs.twimg.com/profile_images/1404526940699168768/mqup8up7_normal.jpg', 'profile_image_url_https': 'https://pbs.twimg.com/profile_images/1404526940699168768/mqup8up7_normal.jpg', 'profile_banner_url': 'https://pbs.twimg.com/profile_banners/1364661480319307780/1614564154', 'profile_link_color': '1DA1F2', 'profile_sidebar_border_color': 'C0DEED', 'profile_sidebar_fill_color': 'DDEEF6', 'profile_text_color': '333333', 'profile_use_background_image': True, 'has_extended_profile': True, 'default_profile': True, 'default_profile_image': False, 'following': False, 'follow_request_sent': False, 'notifications': False, 'translator_type': 'none', 'withheld_in_countries': []}, 'geo': None, 'coordinates': None, 'place': None, 'contributors': None, 'is_quote_status': False, 'retweet_count': 29, 'favorite_count': 675, 'favorited': False, 'retweeted': False, 'lang': 'en'}, 'is_quote_status': False, 'retweet_count': 29, 'favorite_count': 0, 'favorited': False, 'retweeted': False, 'lang': 'en'}, created_at=datetime.datetime(2021, 6, 28, 23, 43, 18), id=1409658697580630024, id_str='1409658697580630024', full_text='RT @SFloef: Happy to report the hang over is gone. Slept 10 hours last night. Got up and drank a cup of coffee and now getting ready to wor…', truncated=False, display_text_range=[0, 140], entities={'hashtags': [], 'symbols': [], 'user_mentions': [{'screen_name': 'SFloef', 'name': 'Redneck girl', 'id': 1364661480319307780, 'id_str': '1364661480319307780', 'indices': [3, 10]}], 'urls': []}, metadata={'iso_language_code': 'en', 'result_type': 'recent'}, source='Twitter for Android', source_url='http://twitter.com/download/android', in_reply_to_status_id=None, in_reply_to_status_id_str=None, in_reply_to_user_id=None, in_reply_to_user_id_str=None, in_reply_to_screen_name=None, author=User(_api=<tweepy.api.API object at 0x7f72724d81d0>, _json={'id': 822916627104731136, 'id_str': '822916627104731136', 'name': 'Robert Philbrick', 'screen_name': 'RobertPhilbri12', 'location': 'USA', 'description': 'Government & Politics NFL MLB Harley-Davidson rifles and pistols no porn no no lists= block and most importantly Maga Trump Pence 20/20', 'url': None, 'entities': {'description': {'urls': []}}, 'protected': False, 'followers_count': 9315, 'friends_count': 9501, 'listed_count': 2, 'created_at': 'Sat Jan 21 21:19:47 +0000 2017', 'favourites_count': 108104, 'utc_offset': None, 'time_zone': None, 'geo_enabled': False, 'verified': False, 'statuses_count': 182219, 'lang': None, 'contributors_enabled': False, 'is_translator': False, 'is_translation_enabled': False, 'profile_background_color': 'F5F8FA', 'profile_background_image_url': None, 'profile_background_image_url_https': None, 'profile_background_tile': False, 'profile_image_url': 'http://pbs.twimg.com/profile_images/848664387414052864/OJ-RMR4e_normal.jpg', 'profile_image_url_https': 'https://pbs.twimg.com/profile_images/848664387414052864/OJ-RMR4e_normal.jpg', 'profile_banner_url': 'https://pbs.twimg.com/profile_banners/822916627104731136/1491172385', 'profile_link_color': '1DA1F2', 'profile_sidebar_border_color': 'C0DEED', 'profile_sidebar_fill_color': 'DDEEF6', 'profile_text_color': '333333', 'profile_use_background_image': True, 'has_extended_profile': False, 'default_profile': True, 'default_profile_image': False, 'following': False, 'follow_request_sent': False, 'notifications': False, 'translator_type': 'none', 'withheld_in_countries': []}, id=822916627104731136, id_str='822916627104731136', name='Robert Philbrick', screen_name='RobertPhilbri12', location='USA', description='Government & Politics NFL MLB Harley-Davidson rifles and pistols no porn no no lists= block and most importantly Maga Trump Pence 20/20', url=None, entities={'description': {'urls': []}}, protected=False, followers_count=9315, friends_count=9501, listed_count=2, created_at=datetime.datetime(2017, 1, 21, 21, 19, 47), favourites_count=108104, utc_offset=None, time_zone=None, geo_enabled=False, verified=False, statuses_count=182219, lang=None, contributors_enabled=False, is_translator=False, is_translation_enabled=False, profile_background_color='F5F8FA', profile_background_image_url=None, profile_background_image_url_https=None, profile_background_tile=False, profile_image_url='http://pbs.twimg.com/profile_images/848664387414052864/OJ-RMR4e_normal.jpg', profile_image_url_https='https://pbs.twimg.com/profile_images/848664387414052864/OJ-RMR4e_normal.jpg', profile_banner_url='https://pbs.twimg.com/profile_banners/822916627104731136/1491172385', profile_link_color='1DA1F2', profile_sidebar_border_color='C0DEED', profile_sidebar_fill_color='DDEEF6', profile_text_color='333333', profile_use_background_image=True, has_extended_profile=False, default_profile=True, default_profile_image=False, following=False, follow_request_sent=False, notifications=False, translator_type='none', withheld_in_countries=[]), user=User(_api=<tweepy.api.API object at 0x7f72724d81d0>, _json={'id': 822916627104731136, 'id_str': '822916627104731136', 'name': 'Robert Philbrick', 'screen_name': 'RobertPhilbri12', 'location': 'USA', 'description': 'Government & Politics NFL MLB Harley-Davidson rifles and pistols no porn no no lists= block and most importantly Maga Trump Pence 20/20', 'url': None, 'entities': {'description': {'urls': []}}, 'protected': False, 'followers_count': 9315, 'friends_count': 9501, 'listed_count': 2, 'created_at': 'Sat Jan 21 21:19:47 +0000 2017', 'favourites_count': 108104, 'utc_offset': None, 'time_zone': None, 'geo_enabled': False, 'verified': False, 'statuses_count': 182219, 'lang': None, 'contributors_enabled': False, 'is_translator': False, 'is_translation_enabled': False, 'profile_background_color': 'F5F8FA', 'profile_background_image_url': None, 'profile_background_image_url_https': None, 'profile_background_tile': False, 'profile_image_url': 'http://pbs.twimg.com/profile_images/848664387414052864/OJ-RMR4e_normal.jpg', 'profile_image_url_https': 'https://pbs.twimg.com/profile_images/848664387414052864/OJ-RMR4e_normal.jpg', 'profile_banner_url': 'https://pbs.twimg.com/profile_banners/822916627104731136/1491172385', 'profile_link_color': '1DA1F2', 'profile_sidebar_border_color': 'C0DEED', 'profile_sidebar_fill_color': 'DDEEF6', 'profile_text_color': '333333', 'profile_use_background_image': True, 'has_extended_profile': False, 'default_profile': True, 'default_profile_image': False, 'following': False, 'follow_request_sent': False, 'notifications': False, 'translator_type': 'none', 'withheld_in_countries': []}, id=822916627104731136, id_str='822916627104731136', name='Robert Philbrick', screen_name='RobertPhilbri12', location='USA', description='Government & Politics NFL MLB Harley-Davidson rifles and pistols no porn no no lists= block and most importantly Maga Trump Pence 20/20', url=None, entities={'description': {'urls': []}}, protected=False, followers_count=9315, friends_count=9501, listed_count=2, created_at=datetime.datetime(2017, 1, 21, 21, 19, 47), favourites_count=108104, utc_offset=None, time_zone=None, geo_enabled=False, verified=False, statuses_count=182219, lang=None, contributors_enabled=False, is_translator=False, is_translation_enabled=False, profile_background_color='F5F8FA', profile_background_image_url=None, profile_background_image_url_https=None, profile_background_tile=False, profile_image_url='http://pbs.twimg.com/profile_images/848664387414052864/OJ-RMR4e_normal.jpg', profile_image_url_https='https://pbs.twimg.com/profile_images/848664387414052864/OJ-RMR4e_normal.jpg', profile_banner_url='https://pbs.twimg.com/profile_banners/822916627104731136/1491172385', profile_link_color='1DA1F2', profile_sidebar_border_color='C0DEED', profile_sidebar_fill_color='DDEEF6', profile_text_color='333333', profile_use_background_image=True, has_extended_profile=False, default_profile=True, default_profile_image=False, following=False, follow_request_sent=False, notifications=False, translator_type='none', withheld_in_countries=[]), geo=None, coordinates=None, place=None, contributors=None, retweeted_status=Status(_api=<tweepy.api.API object at 0x7f72724d81d0>, _json={'created_at': 'Mon Jun 28 12:09:54 +0000 2021', 'id': 1409484199808090117, 'id_str': '1409484199808090117', 'full_text': 'Happy to report the hang over is gone. Slept 10 hours last night. Got up and drank a cup of coffee and now getting ready to work out. I will never drink another Long Island Tea as long as I live. Then again I have saidnthat before.', 'truncated': False, 'display_text_range': [0, 231], 'entities': {'hashtags': [], 'symbols': [], 'user_mentions': [], 'urls': []}, 'metadata': {'iso_language_code': 'en', 'result_type': 'recent'}, 'source': '<a href=""http://twitter.com/download/android"" rel=""nofollow"">Twitter for Android</a>', 'in_reply_to_status_id': None, 'in_reply_to_status_id_str': None, 'in_reply_to_user_id': None, 'in_reply_to_user_id_str': None, 'in_reply_to_screen_name': None, 'user': {'id': 1364661480319307780, 'id_str': '1364661480319307780', 'name': 'Redneck girl', 'screen_name': 'SFloef', 'location': 'United States', 'description': 'Patriotic All American Girl', 'url': None, 'entities': {'description': {'urls': []}}, 'protected': False, 'followers_count': 18746, 'friends_count': 14434, 'listed_count': 5, 'created_at': 'Wed Feb 24 19:40:40 +0000 2021', 'favourites_count': 21933, 'utc_offset': None, 'time_zone': None, 'geo_enabled': False, 'verified': False, 'statuses_count': 11670, 'lang': None, 'contributors_enabled': False, 'is_translator': False, 'is_translation_enabled': False, 'profile_background_color': 'F5F8FA', 'profile_background_image_url': None, 'profile_background_image_url_https': None, 'profile_background_tile': False, 'profile_image_url': 'http://pbs.twimg.com/profile_images/1404526940699168768/mqup8up7_normal.jpg', 'profile_image_url_https': 'https://pbs.twimg.com/profile_images/1404526940699168768/mqup8up7_normal.jpg', 'profile_banner_url': 'https://pbs.twimg.com/profile_banners/1364661480319307780/1614564154', 'profile_link_color': '1DA1F2', 'profile_sidebar_border_color': 'C0DEED', 'profile_sidebar_fill_color': 'DDEEF6', 'profile_text_color': '333333', 'profile_use_background_image': True, 'has_extended_profile': True, 'default_profile': True, 'default_profile_image': False, 'following': False, 'follow_request_sent': False, 'notifications': False, 'translator_type': 'none', 'withheld_in_countries': []}, 'geo': None, 'coordinates': None, 'place': None, 'contributors': None, 'is_quote_status': False, 'retweet_count': 29, 'favorite_count': 675, 'favorited': False, 'retweeted': False, 'lang': 'en'}, created_at=datetime.datetime(2021, 6, 28, 12, 9, 54), id=1409484199808090117, id_str='1409484199808090117', full_text='Happy to report the hang over is gone. Slept 10 hours last night. Got up and drank a cup of coffee and now getting ready to work out. I will never drink another Long Island Tea as long as I live. Then again I have saidnthat before.', truncated=False, display_text_range=[0, 231], entities={'hashtags': [], 'symbols': [], 'user_mentions': [], 'urls': []}, metadata={'iso_language_code': 'en', 'result_type': 'recent'}, source='Twitter for Android', source_url='http://twitter.com/download/android', in_reply_to_status_id=None, in_reply_to_status_id_str=None, in_reply_to_user_id=None, in_reply_to_user_id_str=None, in_reply_to_screen_name=None, author=User(_api=<tweepy.api.API object at 0x7f72724d81d0>, _json={'id': 1364661480319307780, 'id_str': '1364661480319307780', 'name': 'Redneck girl', 'screen_name': 'SFloef', 'location': 'United States', 'description': 'Patriotic All American Girl', 'url': None, 'entities': {'description': {'urls': []}}, 'protected': False, 'followers_count': 18746, 'friends_count': 14434, 'listed_count': 5, 'created_at': 'Wed Feb 24 19:40:40 +0000 2021', 'favourites_count': 21933, 'utc_offset': None, 'time_zone': None, 'geo_enabled': False, 'verified': False, 'statuses_count': 11670, 'lang': None, 'contributors_enabled': False, 'is_translator': False, 'is_translation_enabled': False, 'profile_background_color': 'F5F8FA', 'profile_background_image_url': None, 'profile_background_image_url_https': None, 'profile_background_tile': False, 'profile_image_url': 'http://pbs.twimg.com/profile_images/1404526940699168768/mqup8up7_normal.jpg', 'profile_image_url_https': 'https://pbs.twimg.com/profile_images/1404526940699168768/mqup8up7_normal.jpg', 'profile_banner_url': 'https://pbs.twimg.com/profile_banners/1364661480319307780/1614564154', 'profile_link_color': '1DA1F2', 'profile_sidebar_border_color': 'C0DEED', 'profile_sidebar_fill_color': 'DDEEF6', 'profile_text_color': '333333', 'profile_use_background_image': True, 'has_extended_profile': True, 'default_profile': True, 'default_profile_image': False, 'following': False, 'follow_request_sent': False, 'notifications': False, 'translator_type': 'none', 'withheld_in_countries': []}, id=1364661480319307780, id_str='1364661480319307780', name='Redneck girl', screen_name='SFloef', location='United States', description='Patriotic All American Girl', url=None, entities={'description': {'urls': []}}, protected=False, followers_count=18746, friends_count=14434, listed_count=5, created_at=datetime.datetime(2021, 2, 24, 19, 40, 40), favourites_count=21933, utc_offset=None, time_zone=None, geo_enabled=False, verified=False, statuses_count=11670, lang=None, contributors_enabled=False, is_translator=False, is_translation_enabled=False, profile_background_color='F5F8FA', profile_background_image_url=None, profile_background_image_url_https=None, profile_background_tile=False, profile_image_url='http://pbs.twimg.com/profile_images/1404526940699168768/mqup8up7_normal.jpg', profile_image_url_https='https://pbs.twimg.com/profile_images/1404526940699168768/mqup8up7_normal.jpg', profile_banner_url='https://pbs.twimg.com/profile_banners/1364661480319307780/1614564154', profile_link_color='1DA1F2', profile_sidebar_border_color='C0DEED', profile_sidebar_fill_color='DDEEF6', profile_text_color='333333', profile_use_background_image=True, has_extended_profile=True, default_profile=True, default_profile_image=False, following=False, follow_request_sent=False, notifications=False, translator_type='none', withheld_in_countries=[]), user=User(_api=<tweepy.api.API object at 0x7f72724d81d0>, _json={'id': 1364661480319307780, 'id_str': '1364661480319307780', 'name': 'Redneck girl', 'screen_name': 'SFloef', 'location': 'United States', 'description': 'Patriotic All American Girl', 'url': None, 'entities': {'description': {'urls': []}}, 'protected': False, 'followers_count': 18746, 'friends_count': 14434, 'listed_count': 5, 'created_at': 'Wed Feb 24 19:40:40 +0000 2021', 'favourites_count': 21933, 'utc_offset': None, 'time_zone': None, 'geo_enabled': False, 'verified': False, 'statuses_count': 11670, 'lang': None, 'contributors_enabled': False, 'is_translator': False, 'is_translation_enabled': False, 'profile_background_color': 'F5F8FA', 'profile_background_image_url': None, 'profile_background_image_url_https': None, 'profile_background_tile': False, 'profile_image_url': 'http://pbs.twimg.com/profile_images/1404526940699168768/mqup8up7_normal.jpg', 'profile_image_url_https': 'https://pbs.twimg.com/profile_images/1404526940699168768/mqup8up7_normal.jpg', 'profile_banner_url': 'https://pbs.twimg.com/profile_banners/1364661480319307780/1614564154', 'profile_link_color': '1DA1F2', 'profile_sidebar_border_color': 'C0DEED', 'profile_sidebar_fill_color': 'DDEEF6', 'profile_text_color': '333333', 'profile_use_background_image': True, 'has_extended_profile': True, 'default_profile': True, 'default_profile_image': False, 'following': False, 'follow_request_sent': False, 'notifications': False, 'translator_type': 'none', 'withheld_in_countries': []}, id=1364661480319307780, id_str='1364661480319307780', name='Redneck girl', screen_name='SFloef', location='United States', description='Patriotic All American Girl', url=None, entities={'description': {'urls': []}}, protected=False, followers_count=18746, friends_count=14434, listed_count=5, created_at=datetime.datetime(2021, 2, 24, 19, 40, 40), favourites_count=21933, utc_offset=None, time_zone=None, geo_enabled=False, verified=False, statuses_count=11670, lang=None, contributors_enabled=False, is_translator=False, is_translation_enabled=False, profile_background_color='F5F8FA', profile_background_image_url=None, profile_background_image_url_https=None, profile_background_tile=False, profile_image_url='http://pbs.twimg.com/profile_images/1404526940699168768/mqup8up7_normal.jpg', profile_image_url_https='https://pbs.twimg.com/profile_images/1404526940699168768/mqup8up7_normal.jpg', profile_banner_url='https://pbs.twimg.com/profile_banners/1364661480319307780/1614564154', profile_link_color='1DA1F2', profile_sidebar_border_color='C0DEED', profile_sidebar_fill_color='DDEEF6', profile_text_color='333333', profile_use_background_image=True, has_extended_profile=True, default_profile=True, default_profile_image=False, following=False, follow_request_sent=False, notifications=False, translator_type='none', withheld_in_countries=[]), geo=None, coordinates=None, place=None, contributors=None, is_quote_status=False, retweet_count=29, favorite_count=675, favorited=False, retweeted=False, lang='en'), is_quote_status=False, retweet_count=29, favorite_count=0, favorited=False, retweeted=False, lang='en')",0,29,2021-06-28 23:43:18
+"Status(_api=<tweepy.api.API object at 0x7f72724d81d0>, _json={'created_at': 'Mon Jun 28 23:24:24 +0000 2021', 'id': 1409653941831233538, 'id_str': '1409653941831233538', 'full_text': 'It’s not just Charlottetown that is celebrating pride this year, Georgetown hosted an all ages drag show.  https://t.co/SKMeeQgYs0 https://t.co/X2mICKhFtb', 'truncated': False, 'display_text_range': [0, 130], 'entities': {'hashtags': [], 'symbols': [], 'user_mentions': [], 'urls': [{'url': 'https://t.co/SKMeeQgYs0', 'expanded_url': 'https://www.saltwire.com/prince-edward-island/news/canada/down-east-drag-rainbow-brunch-in-pei-brings-together-queens-coffee-and-community-100605043/?utm_medium=Social&utm_source=Twitter#Echobox=1624905621-3', 'display_url': 'saltwire.com/prince-edward-…', 'indices': [107, 130]}], 'media': [{'id': 1409653939780399107, 'id_str': '1409653939780399107', 'indices': [131, 154], 'media_url': 'http://pbs.twimg.com/media/E5AYyiDXMAMiOOP.jpg', 'media_url_https': 'https://pbs.twimg.com/media/E5AYyiDXMAMiOOP.jpg', 'url': 'https://t.co/X2mICKhFtb', 'display_url': 'pic.twitter.com/X2mICKhFtb', 'expanded_url': 'https://twitter.com/SaltWireNetwork/status/1409653941831233538/photo/1', 'type': 'photo', 'sizes': {'thumb': {'w': 150, 'h': 150, 'resize': 'crop'}, 'large': {'w': 1200, 'h': 630, 'resize': 'fit'}, 'medium': {'w': 1200, 'h': 630, 'resize': 'fit'}, 'small': {'w': 680, 'h': 357, 'resize': 'fit'}}}]}, 'extended_entities': {'media': [{'id': 1409653939780399107, 'id_str': '1409653939780399107', 'indices': [131, 154], 'media_url': 'http://pbs.twimg.com/media/E5AYyiDXMAMiOOP.jpg', 'media_url_https': 'https://pbs.twimg.com/media/E5AYyiDXMAMiOOP.jpg', 'url': 'https://t.co/X2mICKhFtb', 'display_url': 'pic.twitter.com/X2mICKhFtb', 'expanded_url': 'https://twitter.com/SaltWireNetwork/status/1409653941831233538/photo/1', 'type': 'photo', 'sizes': {'thumb': {'w': 150, 'h': 150, 'resize': 'crop'}, 'large': {'w': 1200, 'h': 630, 'resize': 'fit'}, 'medium': {'w': 1200, 'h': 630, 'resize': 'fit'}, 'small': {'w': 680, 'h': 357, 'resize': 'fit'}}}]}, 'metadata': {'iso_language_code': 'en', 'result_type': 'recent'}, 'source': '<a href=""https://www.echobox.com"" rel=""nofollow"">Echobox</a>', 'in_reply_to_status_id': None, 'in_reply_to_status_id_str': None, 'in_reply_to_user_id': None, 'in_reply_to_user_id_str': None, 'in_reply_to_screen_name': None, 'user': {'id': 841728096231395328, 'id_str': '841728096231395328', 'name': 'SaltWire Network', 'screen_name': 'SaltWireNetwork', 'location': 'Atlantic Canada', 'description': ""Official Twitter account of https://t.co/0YWbUH3l9G, the new home for the news, opinions and stories shaping our communities and Canada's East Coast."", 'url': 'https://t.co/jkTJIuoK3u', 'entities': {'url': {'urls': [{'url': 'https://t.co/jkTJIuoK3u', 'expanded_url': 'http://saltwire.com', 'display_url': 'saltwire.com', 'indices': [0, 23]}]}, 'description': {'urls': [{'url': 'https://t.co/0YWbUH3l9G', 'expanded_url': 'http://SaltWire.com', 'display_url': 'SaltWire.com', 'indices': [28, 51]}]}}, 'protected': False, 'followers_count': 2956, 'friends_count': 163, 'listed_count': 28, 'created_at': 'Tue Mar 14 19:09:51 +0000 2017', 'favourites_count': 394, 'utc_offset': None, 'time_zone': None, 'geo_enabled': False, 'verified': False, 'statuses_count': 33912, 'lang': None, 'contributors_enabled': False, 'is_translator': False, 'is_translation_enabled': False, 'profile_background_color': '000000', 'profile_background_image_url': 'http://abs.twimg.com/images/themes/theme1/bg.png', 'profile_background_image_url_https': 'https://abs.twimg.com/images/themes/theme1/bg.png', 'profile_background_tile': False, 'profile_image_url': 'http://pbs.twimg.com/profile_images/1182349215277682688/xJ62Xvc8_normal.jpg', 'profile_image_url_https': 'https://pbs.twimg.com/profile_images/1182349215277682688/xJ62Xvc8_normal.jpg', 'profile_banner_url': 'https://pbs.twimg.com/profile_banners/841728096231395328/1570728995', 'profile_link_color': '231F20', 'profile_sidebar_border_color': '000000', 'profile_sidebar_fill_color': '000000', 'profile_text_color': '000000', 'profile_use_background_image': False, 'has_extended_profile': False, 'default_profile': False, 'default_profile_image': False, 'following': False, 'follow_request_sent': False, 'notifications': False, 'translator_type': 'none', 'withheld_in_countries': []}, 'geo': None, 'coordinates': None, 'place': None, 'contributors': None, 'is_quote_status': False, 'retweet_count': 0, 'favorite_count': 0, 'favorited': False, 'retweeted': False, 'possibly_sensitive': False, 'lang': 'en'}, created_at=datetime.datetime(2021, 6, 28, 23, 24, 24), id=1409653941831233538, id_str='1409653941831233538', full_text='It’s not just Charlottetown that is celebrating pride this year, Georgetown hosted an all ages drag show.  https://t.co/SKMeeQgYs0 https://t.co/X2mICKhFtb', truncated=False, display_text_range=[0, 130], entities={'hashtags': [], 'symbols': [], 'user_mentions': [], 'urls': [{'url': 'https://t.co/SKMeeQgYs0', 'expanded_url': 'https://www.saltwire.com/prince-edward-island/news/canada/down-east-drag-rainbow-brunch-in-pei-brings-together-queens-coffee-and-community-100605043/?utm_medium=Social&utm_source=Twitter#Echobox=1624905621-3', 'display_url': 'saltwire.com/prince-edward-…', 'indices': [107, 130]}], 'media': [{'id': 1409653939780399107, 'id_str': '1409653939780399107', 'indices': [131, 154], 'media_url': 'http://pbs.twimg.com/media/E5AYyiDXMAMiOOP.jpg', 'media_url_https': 'https://pbs.twimg.com/media/E5AYyiDXMAMiOOP.jpg', 'url': 'https://t.co/X2mICKhFtb', 'display_url': 'pic.twitter.com/X2mICKhFtb', 'expanded_url': 'https://twitter.com/SaltWireNetwork/status/1409653941831233538/photo/1', 'type': 'photo', 'sizes': {'thumb': {'w': 150, 'h': 150, 'resize': 'crop'}, 'large': {'w': 1200, 'h': 630, 'resize': 'fit'}, 'medium': {'w': 1200, 'h': 630, 'resize': 'fit'}, 'small': {'w': 680, 'h': 357, 'resize': 'fit'}}}]}, extended_entities={'media': [{'id': 1409653939780399107, 'id_str': '1409653939780399107', 'indices': [131, 154], 'media_url': 'http://pbs.twimg.com/media/E5AYyiDXMAMiOOP.jpg', 'media_url_https': 'https://pbs.twimg.com/media/E5AYyiDXMAMiOOP.jpg', 'url': 'https://t.co/X2mICKhFtb', 'display_url': 'pic.twitter.com/X2mICKhFtb', 'expanded_url': 'https://twitter.com/SaltWireNetwork/status/1409653941831233538/photo/1', 'type': 'photo', 'sizes': {'thumb': {'w': 150, 'h': 150, 'resize': 'crop'}, 'large': {'w': 1200, 'h': 630, 'resize': 'fit'}, 'medium': {'w': 1200, 'h': 630, 'resize': 'fit'}, 'small': {'w': 680, 'h': 357, 'resize': 'fit'}}}]}, metadata={'iso_language_code': 'en', 'result_type': 'recent'}, source='Echobox', source_url='https://www.echobox.com', in_reply_to_status_id=None, in_reply_to_status_id_str=None, in_reply_to_user_id=None, in_reply_to_user_id_str=None, in_reply_to_screen_name=None, author=User(_api=<tweepy.api.API object at 0x7f72724d81d0>, _json={'id': 841728096231395328, 'id_str': '841728096231395328', 'name': 'SaltWire Network', 'screen_name': 'SaltWireNetwork', 'location': 'Atlantic Canada', 'description': ""Official Twitter account of https://t.co/0YWbUH3l9G, the new home for the news, opinions and stories shaping our communities and Canada's East Coast."", 'url': 'https://t.co/jkTJIuoK3u', 'entities': {'url': {'urls': [{'url': 'https://t.co/jkTJIuoK3u', 'expanded_url': 'http://saltwire.com', 'display_url': 'saltwire.com', 'indices': [0, 23]}]}, 'description': {'urls': [{'url': 'https://t.co/0YWbUH3l9G', 'expanded_url': 'http://SaltWire.com', 'display_url': 'SaltWire.com', 'indices': [28, 51]}]}}, 'protected': False, 'followers_count': 2956, 'friends_count': 163, 'listed_count': 28, 'created_at': 'Tue Mar 14 19:09:51 +0000 2017', 'favourites_count': 394, 'utc_offset': None, 'time_zone': None, 'geo_enabled': False, 'verified': False, 'statuses_count': 33912, 'lang': None, 'contributors_enabled': False, 'is_translator': False, 'is_translation_enabled': False, 'profile_background_color': '000000', 'profile_background_image_url': 'http://abs.twimg.com/images/themes/theme1/bg.png', 'profile_background_image_url_https': 'https://abs.twimg.com/images/themes/theme1/bg.png', 'profile_background_tile': False, 'profile_image_url': 'http://pbs.twimg.com/profile_images/1182349215277682688/xJ62Xvc8_normal.jpg', 'profile_image_url_https': 'https://pbs.twimg.com/profile_images/1182349215277682688/xJ62Xvc8_normal.jpg', 'profile_banner_url': 'https://pbs.twimg.com/profile_banners/841728096231395328/1570728995', 'profile_link_color': '231F20', 'profile_sidebar_border_color': '000000', 'profile_sidebar_fill_color': '000000', 'profile_text_color': '000000', 'profile_use_background_image': False, 'has_extended_profile': False, 'default_profile': False, 'default_profile_image': False, 'following': False, 'follow_request_sent': False, 'notifications': False, 'translator_type': 'none', 'withheld_in_countries': []}, id=841728096231395328, id_str='841728096231395328', name='SaltWire Network', screen_name='SaltWireNetwork', location='Atlantic Canada', description=""Official Twitter account of https://t.co/0YWbUH3l9G, the new home for the news, opinions and stories shaping our communities and Canada's East Coast."", url='https://t.co/jkTJIuoK3u', entities={'url': {'urls': [{'url': 'https://t.co/jkTJIuoK3u', 'expanded_url': 'http://saltwire.com', 'display_url': 'saltwire.com', 'indices': [0, 23]}]}, 'description': {'urls': [{'url': 'https://t.co/0YWbUH3l9G', 'expanded_url': 'http://SaltWire.com', 'display_url': 'SaltWire.com', 'indices': [28, 51]}]}}, protected=False, followers_count=2956, friends_count=163, listed_count=28, created_at=datetime.datetime(2017, 3, 14, 19, 9, 51), favourites_count=394, utc_offset=None, time_zone=None, geo_enabled=False, verified=False, statuses_count=33912, lang=None, contributors_enabled=False, is_translator=False, is_translation_enabled=False, profile_background_color='000000', profile_background_image_url='http://abs.twimg.com/images/themes/theme1/bg.png', profile_background_image_url_https='https://abs.twimg.com/images/themes/theme1/bg.png', profile_background_tile=False, profile_image_url='http://pbs.twimg.com/profile_images/1182349215277682688/xJ62Xvc8_normal.jpg', profile_image_url_https='https://pbs.twimg.com/profile_images/1182349215277682688/xJ62Xvc8_normal.jpg', profile_banner_url='https://pbs.twimg.com/profile_banners/841728096231395328/1570728995', profile_link_color='231F20', profile_sidebar_border_color='000000', profile_sidebar_fill_color='000000', profile_text_color='000000', profile_use_background_image=False, has_extended_profile=False, default_profile=False, default_profile_image=False, following=False, follow_request_sent=False, notifications=False, translator_type='none', withheld_in_countries=[]), user=User(_api=<tweepy.api.API object at 0x7f72724d81d0>, _json={'id': 841728096231395328, 'id_str': '841728096231395328', 'name': 'SaltWire Network', 'screen_name': 'SaltWireNetwork', 'location': 'Atlantic Canada', 'description': ""Official Twitter account of https://t.co/0YWbUH3l9G, the new home for the news, opinions and stories shaping our communities and Canada's East Coast."", 'url': 'https://t.co/jkTJIuoK3u', 'entities': {'url': {'urls': [{'url': 'https://t.co/jkTJIuoK3u', 'expanded_url': 'http://saltwire.com', 'display_url': 'saltwire.com', 'indices': [0, 23]}]}, 'description': {'urls': [{'url': 'https://t.co/0YWbUH3l9G', 'expanded_url': 'http://SaltWire.com', 'display_url': 'SaltWire.com', 'indices': [28, 51]}]}}, 'protected': False, 'followers_count': 2956, 'friends_count': 163, 'listed_count': 28, 'created_at': 'Tue Mar 14 19:09:51 +0000 2017', 'favourites_count': 394, 'utc_offset': None, 'time_zone': None, 'geo_enabled': False, 'verified': False, 'statuses_count': 33912, 'lang': None, 'contributors_enabled': False, 'is_translator': False, 'is_translation_enabled': False, 'profile_background_color': '000000', 'profile_background_image_url': 'http://abs.twimg.com/images/themes/theme1/bg.png', 'profile_background_image_url_https': 'https://abs.twimg.com/images/themes/theme1/bg.png', 'profile_background_tile': False, 'profile_image_url': 'http://pbs.twimg.com/profile_images/1182349215277682688/xJ62Xvc8_normal.jpg', 'profile_image_url_https': 'https://pbs.twimg.com/profile_images/1182349215277682688/xJ62Xvc8_normal.jpg', 'profile_banner_url': 'https://pbs.twimg.com/profile_banners/841728096231395328/1570728995', 'profile_link_color': '231F20', 'profile_sidebar_border_color': '000000', 'profile_sidebar_fill_color': '000000', 'profile_text_color': '000000', 'profile_use_background_image': False, 'has_extended_profile': False, 'default_profile': False, 'default_profile_image': False, 'following': False, 'follow_request_sent': False, 'notifications': False, 'translator_type': 'none', 'withheld_in_countries': []}, id=841728096231395328, id_str='841728096231395328', name='SaltWire Network', screen_name='SaltWireNetwork', location='Atlantic Canada', description=""Official Twitter account of https://t.co/0YWbUH3l9G, the new home for the news, opinions and stories shaping our communities and Canada's East Coast."", url='https://t.co/jkTJIuoK3u', entities={'url': {'urls': [{'url': 'https://t.co/jkTJIuoK3u', 'expanded_url': 'http://saltwire.com', 'display_url': 'saltwire.com', 'indices': [0, 23]}]}, 'description': {'urls': [{'url': 'https://t.co/0YWbUH3l9G', 'expanded_url': 'http://SaltWire.com', 'display_url': 'SaltWire.com', 'indices': [28, 51]}]}}, protected=False, followers_count=2956, friends_count=163, listed_count=28, created_at=datetime.datetime(2017, 3, 14, 19, 9, 51), favourites_count=394, utc_offset=None, time_zone=None, geo_enabled=False, verified=False, statuses_count=33912, lang=None, contributors_enabled=False, is_translator=False, is_translation_enabled=False, profile_background_color='000000', profile_background_image_url='http://abs.twimg.com/images/themes/theme1/bg.png', profile_background_image_url_https='https://abs.twimg.com/images/themes/theme1/bg.png', profile_background_tile=False, profile_image_url='http://pbs.twimg.com/profile_images/1182349215277682688/xJ62Xvc8_normal.jpg', profile_image_url_https='https://pbs.twimg.com/profile_images/1182349215277682688/xJ62Xvc8_normal.jpg', profile_banner_url='https://pbs.twimg.com/profile_banners/841728096231395328/1570728995', profile_link_color='231F20', profile_sidebar_border_color='000000', profile_sidebar_fill_color='000000', profile_text_color='000000', profile_use_background_image=False, has_extended_profile=False, default_profile=False, default_profile_image=False, following=False, follow_request_sent=False, notifications=False, translator_type='none', withheld_in_countries=[]), geo=None, coordinates=None, place=None, contributors=None, is_quote_status=False, retweet_count=0, favorite_count=0, favorited=False, retweeted=False, possibly_sensitive=False, lang='en')",0,0,2021-06-28 23:24:24
+text,favourite_count,retweet_count,created_at
+"Hawaiian coffee has historically been synonymous with Kona, but more and more specialty coffee being produced off the Big Island, that may no longer with the case. https://t.co/KEh9HCHDj5",0,3,2021-06-30 23:54:28
+Read Treasure Island and drink some chilled coffee from a canteen.,0,0,2021-06-30 23:15:42
+"@SalVulcano coffee is the cheap, fake cocaine that you get from the druggie down the alley. tea is the cocaine found on Epstein’s island",0,0,2021-06-30 22:37:01
+"@yunmengjunhao She makes coffee for him and tea for her. When everything's ready she sets it all on the kitchen island. 
+- Let's enjoy this for now and I'll cook you dinner later. What's your favorite food, love? - 
+She asks as she sits on the kitchen counter, waiting for her tea to cool down.",0,0,2021-06-30 21:07:43
+"Strolling Great Egret on #GreatAbaco Island in The #Bahamas #BeachLife #FineArtAmerica #CLS 🌴
+#ArtForSale 
+https://t.co/hHGWuZGq77
+
+Card https://t.co/zQKWS36CNT
+
+Mug https://t.co/zzJXCnFkla
+
+Jigsaw Puzzle 🧩https://t.co/EOkZpD54ve 
+
+Bag https://t.co/lCTY5XmIde
+
+@FineArtAmerica https://t.co/ZmTUIwCtoX",0,49,2021-06-30 21:01:27
+"Angel Oak, Southern Live Oak, Johns Island, South Carolina 
+#SouthCarolina
+#FineArtAmerica #CLS 
+
+#ArtForSale https://t.co/D86Ipiralh
+
+Card https://t.co/hR2GQ9oSmv
+
+Tote Bag https://t.co/lFwUbX9i1O
+
+Tapestry https://t.co/E0cehpXP1g
+
+Mug https://t.co/K4rg518hR3 @FineArtAmerica https://t.co/xZcGLiKmM4",0,17,2021-06-30 20:40:52
+"A statue of Hawaiian King Kamehameha the Great, Wailoa State Park in #Hilo #Hawaii on the Big Island. 🌺
+#BigIsland #CLS #FineArtAmerica 
+
+https://t.co/peNFcAJwxi
+Card https://t.co/smtVDAHYzL
+Mug https://t.co/cpcVwD6XrH 
+Jigsaw Puzzle 🧩  https://t.co/Hjgrns6H29 @FineArtAmerica https://t.co/M4ffoswJl0",0,40,2021-06-30 20:40:51
+"@AnnaBatchelor On Holy Island. Just along from the Pilgrim Coffee place. They didn’t have rhubarb crumble today, but looks like the sort of place that refreshes the menu frequently. Had ace rhubarb crumble ice cream in Reeth in Swaledale.",1,0,2021-06-30 20:24:33
+"Coffee and chats with @singorshutup95 is my favourite 💜
+Love Island gossip one minute, vaccine chat the next, dont tell me I'm not highbrow 😂",1,0,2021-06-30 19:52:28
+"Redman - Green Island
+KRS One - Black Cop
+G Perico - All Blue
+Big L - All Black
+Black Moon - Black Smif-n-Wessun 
+CNN - Black Gangstas
+DJ Quik - Sweet Black Pussy
+Talib &amp; Mos - Brown Skin Lady
+D’Angelo - Brown Sugar
+Above The Law - Black Superman
+Heavy D - Black Coffee https://t.co/juFEECl8Iz",0,0,2021-06-30 19:46:24
+text,favourite_count,retweet_count,created_at
+"Hawaiian coffee has historically been synonymous with Kona, but more and more specialty coffee being produced off the Big Island, that may no longer with the case. https://t.co/KEh9HCHDj5",0,3,2021-06-30 23:54:28
+Read Treasure Island and drink some chilled coffee from a canteen.,0,0,2021-06-30 23:15:42
+"@SalVulcano coffee is the cheap, fake cocaine that you get from the druggie down the alley. tea is the cocaine found on Epstein’s island",0,0,2021-06-30 22:37:01
+"@yunmengjunhao She makes coffee for him and tea for her. When everything's ready she sets it all on the kitchen island. 
+- Let's enjoy this for now and I'll cook you dinner later. What's your favorite food, love? - 
+She asks as she sits on the kitchen counter, waiting for her tea to cool down.",0,0,2021-06-30 21:07:43
+"Strolling Great Egret on #GreatAbaco Island in The #Bahamas #BeachLife #FineArtAmerica #CLS 🌴
+#ArtForSale 
+https://t.co/hHGWuZGq77
+
+Card https://t.co/zQKWS36CNT
+
+Mug https://t.co/zzJXCnFkla
+
+Jigsaw Puzzle 🧩https://t.co/EOkZpD54ve 
+
+Bag https://t.co/lCTY5XmIde
+
+@FineArtAmerica https://t.co/ZmTUIwCtoX",0,49,2021-06-30 21:01:27
+"Angel Oak, Southern Live Oak, Johns Island, South Carolina 
+#SouthCarolina
+#FineArtAmerica #CLS 
+
+#ArtForSale https://t.co/D86Ipiralh
+
+Card https://t.co/hR2GQ9oSmv
+
+Tote Bag https://t.co/lFwUbX9i1O
+
+Tapestry https://t.co/E0cehpXP1g
+
+Mug https://t.co/K4rg518hR3 @FineArtAmerica https://t.co/xZcGLiKmM4",0,17,2021-06-30 20:40:52
+"A statue of Hawaiian King Kamehameha the Great, Wailoa State Park in #Hilo #Hawaii on the Big Island. 🌺
+#BigIsland #CLS #FineArtAmerica 
+
+https://t.co/peNFcAJwxi
+Card https://t.co/smtVDAHYzL
+Mug https://t.co/cpcVwD6XrH 
+Jigsaw Puzzle 🧩  https://t.co/Hjgrns6H29 @FineArtAmerica https://t.co/M4ffoswJl0",0,40,2021-06-30 20:40:51
+"@AnnaBatchelor On Holy Island. Just along from the Pilgrim Coffee place. They didn’t have rhubarb crumble today, but looks like the sort of place that refreshes the menu frequently. Had ace rhubarb crumble ice cream in Reeth in Swaledale.",1,0,2021-06-30 20:24:33
+"Coffee and chats with @singorshutup95 is my favourite 💜
+Love Island gossip one minute, vaccine chat the next, dont tell me I'm not highbrow 😂",1,0,2021-06-30 19:52:28
+"Redman - Green Island
+KRS One - Black Cop
+G Perico - All Blue
+Big L - All Black
+Black Moon - Black Smif-n-Wessun 
+CNN - Black Gangstas
+DJ Quik - Sweet Black Pussy
+Talib &amp; Mos - Brown Skin Lady
+D’Angelo - Brown Sugar
+Above The Law - Black Superman
+Heavy D - Black Coffee https://t.co/juFEECl8Iz",0,0,2021-06-30 19:46:24
+text,favourite_count,retweet_count,created_at
+"Hawaiian coffee has historically been synonymous with Kona, but more and more specialty coffee being produced off the Big Island, that may no longer with the case. https://t.co/KEh9HCHDj5",0,3,2021-06-30 23:54:28
+Read Treasure Island and drink some chilled coffee from a canteen.,0,0,2021-06-30 23:15:42
+"@SalVulcano coffee is the cheap, fake cocaine that you get from the druggie down the alley. tea is the cocaine found on Epstein’s island",0,0,2021-06-30 22:37:01
+"@yunmengjunhao She makes coffee for him and tea for her. When everything's ready she sets it all on the kitchen island. 
+- Let's enjoy this for now and I'll cook you dinner later. What's your favorite food, love? - 
+She asks as she sits on the kitchen counter, waiting for her tea to cool down.",0,0,2021-06-30 21:07:43
+"Strolling Great Egret on #GreatAbaco Island in The #Bahamas #BeachLife #FineArtAmerica #CLS 🌴
+#ArtForSale 
+https://t.co/hHGWuZGq77
+
+Card https://t.co/zQKWS36CNT
+
+Mug https://t.co/zzJXCnFkla
+
+Jigsaw Puzzle 🧩https://t.co/EOkZpD54ve 
+
+Bag https://t.co/lCTY5XmIde
+
+@FineArtAmerica https://t.co/ZmTUIwCtoX",0,49,2021-06-30 21:01:27
+"Angel Oak, Southern Live Oak, Johns Island, South Carolina 
+#SouthCarolina
+#FineArtAmerica #CLS 
+
+#ArtForSale https://t.co/D86Ipiralh
+
+Card https://t.co/hR2GQ9oSmv
+
+Tote Bag https://t.co/lFwUbX9i1O
+
+Tapestry https://t.co/E0cehpXP1g
+
+Mug https://t.co/K4rg518hR3 @FineArtAmerica https://t.co/xZcGLiKmM4",0,17,2021-06-30 20:40:52
+"A statue of Hawaiian King Kamehameha the Great, Wailoa State Park in #Hilo #Hawaii on the Big Island. 🌺
+#BigIsland #CLS #FineArtAmerica 
+
+https://t.co/peNFcAJwxi
+Card https://t.co/smtVDAHYzL
+Mug https://t.co/cpcVwD6XrH 
+Jigsaw Puzzle 🧩  https://t.co/Hjgrns6H29 @FineArtAmerica https://t.co/M4ffoswJl0",0,40,2021-06-30 20:40:51
+"@AnnaBatchelor On Holy Island. Just along from the Pilgrim Coffee place. They didn’t have rhubarb crumble today, but looks like the sort of place that refreshes the menu frequently. Had ace rhubarb crumble ice cream in Reeth in Swaledale.",1,0,2021-06-30 20:24:33
+"Coffee and chats with @singorshutup95 is my favourite 💜
+Love Island gossip one minute, vaccine chat the next, dont tell me I'm not highbrow 😂",1,0,2021-06-30 19:52:28
+"Redman - Green Island
+KRS One - Black Cop
+G Perico - All Blue
+Big L - All Black
+Black Moon - Black Smif-n-Wessun 
+CNN - Black Gangstas
+DJ Quik - Sweet Black Pussy
+Talib &amp; Mos - Brown Skin Lady
+D’Angelo - Brown Sugar
+Above The Law - Black Superman
+Heavy D - Black Coffee https://t.co/juFEECl8Iz",0,0,2021-06-30 19:46:24
+text,favourite_count,retweet_count,created_at
+"Hawaiian coffee has historically been synonymous with Kona, but more and more specialty coffee being produced off the Big Island, that may no longer with the case. https://t.co/KEh9HCHDj5",0,3,2021-06-30 23:54:28
+Read Treasure Island and drink some chilled coffee from a canteen.,0,0,2021-06-30 23:15:42
+"@SalVulcano coffee is the cheap, fake cocaine that you get from the druggie down the alley. tea is the cocaine found on Epstein’s island",0,0,2021-06-30 22:37:01
+"@yunmengjunhao She makes coffee for him and tea for her. When everything's ready she sets it all on the kitchen island. 
+- Let's enjoy this for now and I'll cook you dinner later. What's your favorite food, love? - 
+She asks as she sits on the kitchen counter, waiting for her tea to cool down.",0,0,2021-06-30 21:07:43
+"Strolling Great Egret on #GreatAbaco Island in The #Bahamas #BeachLife #FineArtAmerica #CLS 🌴
+#ArtForSale 
+https://t.co/hHGWuZGq77
+
+Card https://t.co/zQKWS36CNT
+
+Mug https://t.co/zzJXCnFkla
+
+Jigsaw Puzzle 🧩https://t.co/EOkZpD54ve 
+
+Bag https://t.co/lCTY5XmIde
+
+@FineArtAmerica https://t.co/ZmTUIwCtoX",0,49,2021-06-30 21:01:27
+"Angel Oak, Southern Live Oak, Johns Island, South Carolina 
+#SouthCarolina
+#FineArtAmerica #CLS 
+
+#ArtForSale https://t.co/D86Ipiralh
+
+Card https://t.co/hR2GQ9oSmv
+
+Tote Bag https://t.co/lFwUbX9i1O
+
+Tapestry https://t.co/E0cehpXP1g
+
+Mug https://t.co/K4rg518hR3 @FineArtAmerica https://t.co/xZcGLiKmM4",0,17,2021-06-30 20:40:52
+"A statue of Hawaiian King Kamehameha the Great, Wailoa State Park in #Hilo #Hawaii on the Big Island. 🌺
+#BigIsland #CLS #FineArtAmerica 
+
+https://t.co/peNFcAJwxi
+Card https://t.co/smtVDAHYzL
+Mug https://t.co/cpcVwD6XrH 
+Jigsaw Puzzle 🧩  https://t.co/Hjgrns6H29 @FineArtAmerica https://t.co/M4ffoswJl0",0,40,2021-06-30 20:40:51
+"@AnnaBatchelor On Holy Island. Just along from the Pilgrim Coffee place. They didn’t have rhubarb crumble today, but looks like the sort of place that refreshes the menu frequently. Had ace rhubarb crumble ice cream in Reeth in Swaledale.",1,0,2021-06-30 20:24:33
+"Coffee and chats with @singorshutup95 is my favourite 💜
+Love Island gossip one minute, vaccine chat the next, dont tell me I'm not highbrow 😂",1,0,2021-06-30 19:52:28
+"Redman - Green Island
+KRS One - Black Cop
+G Perico - All Blue
+Big L - All Black
+Black Moon - Black Smif-n-Wessun 
+CNN - Black Gangstas
+DJ Quik - Sweet Black Pussy
+Talib &amp; Mos - Brown Skin Lady
+D’Angelo - Brown Sugar
+Above The Law - Black Superman
+Heavy D - Black Coffee https://t.co/juFEECl8Iz",0,0,2021-06-30 19:46:24
+text,favourite_count,retweet_count,created_at
+"Hawaiian coffee has historically been synonymous with Kona, but more and more specialty coffee being produced off the Big Island, that may no longer with the case. https://t.co/KEh9HCHDj5",0,3,2021-06-30 23:54:28
+Read Treasure Island and drink some chilled coffee from a canteen.,0,0,2021-06-30 23:15:42
+"@SalVulcano coffee is the cheap, fake cocaine that you get from the druggie down the alley. tea is the cocaine found on Epstein’s island",0,0,2021-06-30 22:37:01
+"@yunmengjunhao She makes coffee for him and tea for her. When everything's ready she sets it all on the kitchen island. 
+- Let's enjoy this for now and I'll cook you dinner later. What's your favorite food, love? - 
+She asks as she sits on the kitchen counter, waiting for her tea to cool down.",0,0,2021-06-30 21:07:43
+"Strolling Great Egret on #GreatAbaco Island in The #Bahamas #BeachLife #FineArtAmerica #CLS 🌴
+#ArtForSale 
+https://t.co/hHGWuZGq77
+
+Card https://t.co/zQKWS36CNT
+
+Mug https://t.co/zzJXCnFkla
+
+Jigsaw Puzzle 🧩https://t.co/EOkZpD54ve 
+
+Bag https://t.co/lCTY5XmIde
+
+@FineArtAmerica https://t.co/ZmTUIwCtoX",0,49,2021-06-30 21:01:27
+"Angel Oak, Southern Live Oak, Johns Island, South Carolina 
+#SouthCarolina
+#FineArtAmerica #CLS 
+
+#ArtForSale https://t.co/D86Ipiralh
+
+Card https://t.co/hR2GQ9oSmv
+
+Tote Bag https://t.co/lFwUbX9i1O
+
+Tapestry https://t.co/E0cehpXP1g
+
+Mug https://t.co/K4rg518hR3 @FineArtAmerica https://t.co/xZcGLiKmM4",0,17,2021-06-30 20:40:52
+"A statue of Hawaiian King Kamehameha the Great, Wailoa State Park in #Hilo #Hawaii on the Big Island. 🌺
+#BigIsland #CLS #FineArtAmerica 
+
+https://t.co/peNFcAJwxi
+Card https://t.co/smtVDAHYzL
+Mug https://t.co/cpcVwD6XrH 
+Jigsaw Puzzle 🧩  https://t.co/Hjgrns6H29 @FineArtAmerica https://t.co/M4ffoswJl0",0,40,2021-06-30 20:40:51
+"@AnnaBatchelor On Holy Island. Just along from the Pilgrim Coffee place. They didn’t have rhubarb crumble today, but looks like the sort of place that refreshes the menu frequently. Had ace rhubarb crumble ice cream in Reeth in Swaledale.",1,0,2021-06-30 20:24:33
+"Coffee and chats with @singorshutup95 is my favourite 💜
+Love Island gossip one minute, vaccine chat the next, dont tell me I'm not highbrow 😂",1,0,2021-06-30 19:52:28
+"Redman - Green Island
+KRS One - Black Cop
+G Perico - All Blue
+Big L - All Black
+Black Moon - Black Smif-n-Wessun 
+CNN - Black Gangstas
+DJ Quik - Sweet Black Pussy
+Talib &amp; Mos - Brown Skin Lady
+D’Angelo - Brown Sugar
+Above The Law - Black Superman
+Heavy D - Black Coffee https://t.co/juFEECl8Iz",0,0,2021-06-30 19:46:24
+text,favourite_count,retweet_count,created_at
+"Hawaiian coffee has historically been synonymous with Kona, but more and more specialty coffee being produced off the Big Island, that may no longer with the case. https://t.co/KEh9HCHDj5",0,3,2021-06-30 23:54:28
+Read Treasure Island and drink some chilled coffee from a canteen.,0,0,2021-06-30 23:15:42
+"@SalVulcano coffee is the cheap, fake cocaine that you get from the druggie down the alley. tea is the cocaine found on Epstein’s island",0,0,2021-06-30 22:37:01
+"@yunmengjunhao She makes coffee for him and tea for her. When everything's ready she sets it all on the kitchen island. 
+- Let's enjoy this for now and I'll cook you dinner later. What's your favorite food, love? - 
+She asks as she sits on the kitchen counter, waiting for her tea to cool down.",0,0,2021-06-30 21:07:43
+"Strolling Great Egret on #GreatAbaco Island in The #Bahamas #BeachLife #FineArtAmerica #CLS 🌴
+#ArtForSale 
+https://t.co/hHGWuZGq77
+
+Card https://t.co/zQKWS36CNT
+
+Mug https://t.co/zzJXCnFkla
+
+Jigsaw Puzzle 🧩https://t.co/EOkZpD54ve 
+
+Bag https://t.co/lCTY5XmIde
+
+@FineArtAmerica https://t.co/ZmTUIwCtoX",0,49,2021-06-30 21:01:27
+"Angel Oak, Southern Live Oak, Johns Island, South Carolina 
+#SouthCarolina
+#FineArtAmerica #CLS 
+
+#ArtForSale https://t.co/D86Ipiralh
+
+Card https://t.co/hR2GQ9oSmv
+
+Tote Bag https://t.co/lFwUbX9i1O
+
+Tapestry https://t.co/E0cehpXP1g
+
+Mug https://t.co/K4rg518hR3 @FineArtAmerica https://t.co/xZcGLiKmM4",0,17,2021-06-30 20:40:52
+"A statue of Hawaiian King Kamehameha the Great, Wailoa State Park in #Hilo #Hawaii on the Big Island. 🌺
+#BigIsland #CLS #FineArtAmerica 
+
+https://t.co/peNFcAJwxi
+Card https://t.co/smtVDAHYzL
+Mug https://t.co/cpcVwD6XrH 
+Jigsaw Puzzle 🧩  https://t.co/Hjgrns6H29 @FineArtAmerica https://t.co/M4ffoswJl0",0,40,2021-06-30 20:40:51
+"@AnnaBatchelor On Holy Island. Just along from the Pilgrim Coffee place. They didn’t have rhubarb crumble today, but looks like the sort of place that refreshes the menu frequently. Had ace rhubarb crumble ice cream in Reeth in Swaledale.",1,0,2021-06-30 20:24:33
+"Coffee and chats with @singorshutup95 is my favourite 💜
+Love Island gossip one minute, vaccine chat the next, dont tell me I'm not highbrow 😂",1,0,2021-06-30 19:52:28
+"Redman - Green Island
+KRS One - Black Cop
+G Perico - All Blue
+Big L - All Black
+Black Moon - Black Smif-n-Wessun 
+CNN - Black Gangstas
+DJ Quik - Sweet Black Pussy
+Talib &amp; Mos - Brown Skin Lady
+D’Angelo - Brown Sugar
+Above The Law - Black Superman
+Heavy D - Black Coffee https://t.co/juFEECl8Iz",0,0,2021-06-30 19:46:24
+"Hawaiian coffee has historically been synonymous with Kona, but more and more specialty coffee being produced off the Big Island, that may no longer with the case. https://t.co/KEh9HCHDj5",0,3,2021-06-30 19:28:09
+"Hawaiian coffee has historically been synonymous with Kona, but more and more specialty coffee being produced off the Big Island, that may no longer with the case. https://t.co/KEh9HCHDj5",6,3,2021-06-30 19:21:08
+@zacdixon any coffee recs nearby? looks like there’s some sort of cafe/market situation on the island too,0,0,2021-06-30 18:49:50
+"@NoMBeMusic thats dope.lived there a few years. was a great place for my brain.
+
+peep Island Brew in hawaii Kai if you need a dope laptop coffee spot. its #1. made hella beats there",3,0,2021-06-30 18:43:55
+"@carpediemeire @AlisonAndalucia @FitLifeTravel @aneasyjourney @vinnenroute @tangoandrakija @epicureanexpats @smtownplussize @sisbehaving @bl2life @OutoftheOffice8 @DeterminedTrav @SouthernerSays @orcadianabroad @KaliTravel @BerkeleySqB @GoodLifeWithIQ @SunhatsC @asadamgoes @MaysamAdventur1 @CoconutLands @CocktailCarryOn @JourneyHeroApp @savvycaligirl @ForeverLostInT2 @OfficialBoarder A little late today, so we'll be commenting in the morning over coffee. Who'd have thought New York had wineries, mansions, and beaches in easy reach. https://t.co/KXYaR7U7Us or that you could stay in a lux farm stay in the same region. Save this one for a romantic mid-trip break",0,6,2021-06-30 17:57:23
+"@JavaHouseCoffee @lithohedron This is what I love about Twitter - @lithohedron and I, on the west coast of Canada (I'm on an island off the coast) are talking coffee, and a friendly company in Indiana in the USA pops by to join in. Also, great memes, @JavaHouseCoffee! #connectingtheworld #communityeverywhere",2,0,2021-06-30 17:48:34
+Read Treasure Island and enjoy some delicious coffee from a red solo cup.,0,0,2021-06-30 17:46:11
+@ChrisWalkerCBC Enjoy your vacation time. You mentioned going to the island. If you get to Ucluelet be sure to have coffee at The Foggy Bean #bestbeans #mysistersbiz #westcoast,0,0,2021-06-30 17:45:48
+"@newman_geoff Very sad, the fact that we are an island seems to make no difference with the current arrangements.
+When will people wake up and smell the coffee and realise the gravity of the situation, vehicle crime is out of control and so are our borders in both directions.",1,0,2021-06-30 17:27:35
+"Oregon:
+Legal cocaine, legal meth, legal heroin, racists
+
+Pennsylvania:
+Quakers, Liberty Bell, Philly Cheesesteaks, 76ers fraud
+
+Rhode Island:
+Hurricanes, coffee, pride, silverware
+
+South Carolina:
+Racists, rednecks, country, always seems to start shit",0,0,2021-06-30 17:24:40
+Check out Sakura Plantation Home Paul Brent  Palm Trees Island Ocean Coffee Mug Tropical  https://t.co/mCHE2qIPaQ via @eBay,0,1,2021-06-30 17:21:33
+"A statue of Hawaiian King Kamehameha the Great, Wailoa State Park in #Hilo #Hawaii on the Big Island. 🌺
+#BigIsland #CLS #FineArtAmerica 
+
+https://t.co/peNFcAJwxi
+Card https://t.co/smtVDAHYzL
+Mug https://t.co/cpcVwD6XrH 
+Jigsaw Puzzle 🧩  https://t.co/Hjgrns6H29 @FineArtAmerica https://t.co/M4ffoswJl0",0,40,2021-06-30 17:07:50
+"@ImVictoriaPratt Alright alright alright I'll put down my butter coffee and dozen donuts. Maybe run a mile or two. Now that I've been yelled at and all..
+Kidding. You gorgeous mermaid you. Make sure to find some baked manapua and some malasadas. You won't find them at the same place. What island?",8,0,2021-06-30 17:01:18
+"If you were left stranded on a desert island, which friend would you bring with you? 👫 — probably coffee, he’s my bubby and i’d never get bored with him there. https://t.co/DgSopYympm",1,0,2021-06-30 16:40:42
+"@MsHodl Big Island, HI!.  Not too big or small.  1 of the most ecologically diverse places anywhere.  Contains I think 9 of the 13 climate zones.  Coffee farms, black sand beaches, 1 of 4 green sand beaches in the world, star gazing, swim with mantas, volcano national park, list goes on!",3,0,2021-06-30 16:07:08
+⭐️ Love Island winner &amp; Irish Olympian 🇮🇪 Greg O’Shea sipping an iced coffee with friends in sunny Dalkey #spotted #Dublin,0,0,2021-06-30 15:43:39
+"The @NantucketPolice have not received any new leads or information about the break-in at Island Coffee last week.
+
+Lt. Angus MacVicar is urging anyone with information or tips to call the Crime Tip Hotline at 508-228-3626 and can stay completely anonymous. @InkyM https://t.co/5KHVbslG7C",0,1,2021-06-30 15:21:52
+"God almighty. Away for a month and the garden was tidy. Came back and it’s like the triffids meets the island of Doctor Moreau. I’ve been doing the kind of gardening Rambo does. 
+
+I’d really like to find the bastard that invented bindweed and staple their head to a coffee table.",8,0,2021-06-30 15:19:18
+"@carpediemeire @AlisonAndalucia @FitLifeTravel @aneasyjourney @vinnenroute @tangoandrakija @epicureanexpats @smtownplussize @sisbehaving @bl2life @OutoftheOffice8 @DeterminedTrav @SouthernerSays @orcadianabroad @KaliTravel @BerkeleySqB @GoodLifeWithIQ @SunhatsC @asadamgoes @MaysamAdventur1 @CoconutLands @CocktailCarryOn @JourneyHeroApp @savvycaligirl @ForeverLostInT2 @OfficialBoarder A little late today, so we'll be commenting in the morning over coffee. Who'd have thought New York had wineries, mansions, and beaches in easy reach. https://t.co/KXYaR7U7Us or that you could stay in a lux farm stay in the same region. Save this one for a romantic mid-trip break",0,6,2021-06-30 15:01:40
+Check out Sakura Plantation Home Paul Brent  Palm Trees Island Ocean Coffee Mug Tropical  https://t.co/mCHE2qIPaQ via @eBay,1,1,2021-06-30 14:49:06
+"If Rhode Island’s legislators implement this proposed beverage tax, it will threaten the production of many locally produced beverages... including Del’s Lemonade, Autocrat Coffee Syrup and Granny Squibb’s iced tea. Read more from @projo:
+https://t.co/nAuyTGxk7S",1,3,2021-06-30 14:01:22
+"A statue of Hawaiian King Kamehameha the Great, Wailoa State Park in #Hilo #Hawaii on the Big Island. 🌺
+#BigIsland #CLS #FineArtAmerica 
+
+https://t.co/peNFcAJwxi
+Card https://t.co/smtVDAHYzL
+Mug https://t.co/cpcVwD6XrH 
+Jigsaw Puzzle 🧩  https://t.co/Hjgrns6H29 @FineArtAmerica https://t.co/M4ffoswJl0",0,40,2021-06-30 13:48:40
+"A statue of Hawaiian King Kamehameha the Great, Wailoa State Park in #Hilo #Hawaii on the Big Island. 🌺
+#BigIsland #CLS #FineArtAmerica 
+
+https://t.co/peNFcAJwxi
+Card https://t.co/smtVDAHYzL
+Mug https://t.co/cpcVwD6XrH 
+Jigsaw Puzzle 🧩  https://t.co/Hjgrns6H29 @FineArtAmerica https://t.co/M4ffoswJl0",0,40,2021-06-30 13:48:02
+"The @NantucketPolice have not received any new leads or information about the break-in at Island Coffee last week.
+
+Lt. Angus MacVicar is urging anyone with information or tips to call the Crime Tip Hotline at 508-228-3626 and can stay completely anonymous. @InkyM https://t.co/5KHVbslG7C",3,1,2021-06-30 13:39:12
+"Oil off the coast of #OrtleyBeach? Learn more in ""A Beach Called Ortley: The Story of Our Barrier Island and its Surroundings,"" a 83-page full-color mini coffee table book.
+$45 - Proceeds benefit Friends of Ortley Beach. Order online https://t.co/vzkJqtpaDk
+#amreading #books https://t.co/pxt4v5nlXb",0,0,2021-06-30 13:35:03
+"My homie sent a Kpop brief from a big label that asks for a beat similar to “My Time” (good luck) ..and the same brief asks for a beat like “Island” by Eric Bellinger.. 🤔🧐 
+
+1/2 flattered 1/2 annoyed.. you want my seasoning, but from somebody else’s kitchen? 🤣",0,2344,2021-06-30 13:17:52
+"Dreaming of coffee, cliffside in Bali. There is so much magic on that tiny island. I can't wait till we can go back! 🌺
+
+#piyogapants https://t.co/8cvnyzJFAC",0,0,2021-06-30 13:02:43
+what Simon &amp; Garfunkel failed to account for is that maybe I am a rock and an island,0,0,2021-06-30 12:53:33
+"A statue of Hawaiian King Kamehameha the Great, Wailoa State Park in #Hilo #Hawaii on the Big Island. 🌺
+#BigIsland #CLS #FineArtAmerica 
+
+https://t.co/peNFcAJwxi
+Card https://t.co/smtVDAHYzL
+Mug https://t.co/cpcVwD6XrH 
+Jigsaw Puzzle 🧩  https://t.co/Hjgrns6H29 @FineArtAmerica https://t.co/M4ffoswJl0",0,40,2021-06-30 12:20:13
+"@thomaskaine5 I miss my paper papers.  My little island has a weekly paper only.  I used to start my day with two newspapers and a cup of coffee and enforced silence. Not anymore, sniff.",1,0,2021-06-30 11:54:01
+"Coral and Limestone Beach, Great Abaco Island, The Bahamas #Bahamas #FineArtAmerica #CLS 
+#ArtForSale
+https://t.co/5Uk1lc10pm
+
+Beach Towel https://t.co/3J6tY6S2b0
+
+Pillow https://t.co/X0D3Q3hAZg
+
+Mug https://t.co/54jvH1KFus
+Jigsaw Puzzle 🧩
+https://t.co/FUt1FkvDrx @FineArtAmerica https://t.co/lYEvxSegcZ",0,44,2021-06-30 11:47:41
+"#Bahamas Fishing Pier, Great Abaco Island.
+#GreatAbaco #FineArtAmerica #CLS
+#ArtForSale 
+All Products: https://t.co/2BPDbEIvId
+Card https://t.co/rdF8a5UdI2
+Jigsaw Puzzle 🧩https://t.co/JgTO9ibRYw
+Shower Curtain https://t.co/u4G7N6wZv2
+Mug https://t.co/AcDOP7ptZb @FineArtAmerica https://t.co/RWMKVMo0N1",0,47,2021-06-30 11:47:36
+my brothers going to the local shawarma place to get everyone sandwiches … giving very much curtis pritchard love island coffee moment vibes,4,0,2021-06-30 11:44:46
+"get your coffee from divine coffee 디바인커피when you go to udo island ☕️😋
+https://t.co/NqMckiD2z6 https://t.co/RLO2X4af4K",0,94,2021-06-30 11:17:12
+"Good Morning, I've got the coffee on for you.",0,0,2021-06-30 11:01:20
+Read Treasure Island and gulp down some grape soda out of a irish coffee glass.,0,0,2021-06-30 10:35:35
+"""liking coffee isn't a personality"" 
+""reading books isn't a personality"" 
+""watching love island isn't a personality"" 
+
+what is a personality? moaning? grow up",0,4,2021-06-30 10:21:49
+"【備忘】ver.2
+
+6/30
+LOKI
+American Graffiti
+Coffee and Cigarettes
+
+7/1
+Godzilla
+Kong: Skull Island
+Godzilla: King of the Monsters
+
+7/2
+Godzilla vs. Kong
+The Tomorrow War
+
+7/3
+dot the i
+Eastern Promises
+
+7/4
+Ed Wood
+eXistenZ
+Gold
+
+7/5
+Into the Wild
+
+7/6
+MATANDO CABOS",0,0,2021-06-30 09:45:16
+@minishwoods there is NO fucking way u can fit a island ur right... but u could probably fit a little coffee/storage area next to the counter on the far right? like this. i think it'd be cute https://t.co/R5KMgGI2mp,0,0,2021-06-30 09:32:41
+"Midsummer Island Adventure 🏖☀️
+#GenshinImpact #原神 @laura_stahl @StephSouthVO https://t.co/3qj6rjYTnS",0,124,2021-06-30 09:32:24
+"""liking coffee isn't a personality"" 
+""reading books isn't a personality"" 
+""watching love island isn't a personality"" 
+
+what is a personality? moaning? grow up",0,4,2021-06-30 09:17:40
+"""liking coffee isn't a personality"" 
+""reading books isn't a personality"" 
+""watching love island isn't a personality"" 
+
+what is a personality? moaning? grow up",43,4,2021-06-30 09:12:25
+@PomeryKaren Have a little sip for me - I’m having ‘desk coffee’ as my view today. 😂 But I’m my mind - I’m on board with you all. Have a wonderful day on a wonderful island.,0,0,2021-06-30 07:14:50
+"And the best non-chain restaurants, coffee shops and a baggage claim that makes you feel like you’ve landed at an island airport. https://t.co/rsuM88XiFy",21,0,2021-06-30 07:12:16
+"North East Victoria Greens Fundraiser - Buy ethical Tanna Coffee and help support the farmers of Tanna Island, Vanuatu. #coffee #Greens 
+https://t.co/jvsxzbwTUF",0,0,2021-06-30 06:47:00
+"#3: memory.
+
+yachi likes to know little things about people. 
+
+the way they like their coffee, their favorite color, what they'd bring to a deserted island etc. 
+
+she'll make sure to mention these things every once and a while to make sure you know she was listening.",0,0,2021-06-30 05:43:25
+obg ft island por ter gravado morning coffee,0,0,2021-06-30 03:19:32
+"@Dorkling2 i've noticed that eating a granny smith often does a better job at keeping me awake than coffee; don't know what the exact alchemy is there, but i appreciate it",1,0,2021-06-30 03:11:58
+@kentuckychrome I have this image of you as a sasquatch stepping from Seattle onto each island whilst enjoying a coffee.,1,0,2021-06-30 02:56:23
+"【備忘】
+
+6/30
+LOKI
+American Graffiti
+Coffee and Cigarettes
+
+7/1
+Godzilla
+Kong: Skull Island
+Godzilla: King of the Monsters
+
+7/2
+Godzilla vs. Kong
+
+7/3
+dot the i
+Eastern Promises
+
+7/4
+Ed Wood
+eXistenZ
+Gold
+
+7/5
+Into the Wild
+
+7/6
+MATANDO CABOS",2,0,2021-06-30 02:15:15
+"So red snoop comes to island plays a song for me. He plays.. 
+Burger was rhe shake that they gave me. It says something about a faffnir shitting in the coffee decanter. This line isninteresring because it says quite distinctly: somebodybelse grandpa stole the entire whole shit.",0,0,2021-06-30 01:55:23
+"One Piece, Coffee Island #fanart #onepiece #digitalart #luffy #OnePiece1017 https://t.co/QruHqMRmrr",0,88,2021-06-30 01:08:32
+"@XXXL74 Only trust Kona Coffee.    
+
+Kona coffee makes up about 95% of all coffee being grown on the Big Island. The other 5% is mostly made up of beans grown in Ka'u, Puna and along the Hamakua coast. There is even some coffee industry on the other Hawaiian islands https://t.co/HzrCqLMB54",0,0,2021-06-30 00:42:43
+Read Treasure Island and gulp down some water out of a irish coffee glass.,0,0,2021-06-30 00:35:53
+"@carpediemeire @AlisonAndalucia @FitLifeTravel @aneasyjourney @vinnenroute @tangoandrakija @epicureanexpats @smtownplussize @sisbehaving @bl2life @OutoftheOffice8 @DeterminedTrav @SouthernerSays @orcadianabroad @KaliTravel @BerkeleySqB @GoodLifeWithIQ @SunhatsC @asadamgoes @MaysamAdventur1 @CoconutLands @CocktailCarryOn @JourneyHeroApp @savvycaligirl @ForeverLostInT2 @OfficialBoarder A little late today, so we'll be commenting in the morning over coffee. Who'd have thought New York had wineries, mansions, and beaches in easy reach. https://t.co/KXYaR7U7Us or that you could stay in a lux farm stay in the same region. Save this one for a romantic mid-trip break",0,6,2021-06-30 00:35:39
+text,favourite_count,retweet_count,created_at
+"Hawaiian coffee has historically been synonymous with Kona, but more and more specialty coffee being produced off the Big Island, that may no longer with the case. https://t.co/KEh9HCHDj5",0,3,2021-06-30 23:54:28
+Read Treasure Island and drink some chilled coffee from a canteen.,0,0,2021-06-30 23:15:42
+"@SalVulcano coffee is the cheap, fake cocaine that you get from the druggie down the alley. tea is the cocaine found on Epstein’s island",0,0,2021-06-30 22:37:01
+"@yunmengjunhao She makes coffee for him and tea for her. When everything's ready she sets it all on the kitchen island. 
+- Let's enjoy this for now and I'll cook you dinner later. What's your favorite food, love? - 
+She asks as she sits on the kitchen counter, waiting for her tea to cool down.",0,0,2021-06-30 21:07:43
+"Strolling Great Egret on #GreatAbaco Island in The #Bahamas #BeachLife #FineArtAmerica #CLS 🌴
+#ArtForSale 
+https://t.co/hHGWuZGq77
+
+Card https://t.co/zQKWS36CNT
+
+Mug https://t.co/zzJXCnFkla
+
+Jigsaw Puzzle 🧩https://t.co/EOkZpD54ve 
+
+Bag https://t.co/lCTY5XmIde
+
+@FineArtAmerica https://t.co/ZmTUIwCtoX",0,49,2021-06-30 21:01:27
+"Angel Oak, Southern Live Oak, Johns Island, South Carolina 
+#SouthCarolina
+#FineArtAmerica #CLS 
+
+#ArtForSale https://t.co/D86Ipiralh
+
+Card https://t.co/hR2GQ9oSmv
+
+Tote Bag https://t.co/lFwUbX9i1O
+
+Tapestry https://t.co/E0cehpXP1g
+
+Mug https://t.co/K4rg518hR3 @FineArtAmerica https://t.co/xZcGLiKmM4",0,17,2021-06-30 20:40:52
+"A statue of Hawaiian King Kamehameha the Great, Wailoa State Park in #Hilo #Hawaii on the Big Island. 🌺
+#BigIsland #CLS #FineArtAmerica 
+
+https://t.co/peNFcAJwxi
+Card https://t.co/smtVDAHYzL
+Mug https://t.co/cpcVwD6XrH 
+Jigsaw Puzzle 🧩  https://t.co/Hjgrns6H29 @FineArtAmerica https://t.co/M4ffoswJl0",0,40,2021-06-30 20:40:51
+"@AnnaBatchelor On Holy Island. Just along from the Pilgrim Coffee place. They didn’t have rhubarb crumble today, but looks like the sort of place that refreshes the menu frequently. Had ace rhubarb crumble ice cream in Reeth in Swaledale.",1,0,2021-06-30 20:24:33
+"Coffee and chats with @singorshutup95 is my favourite 💜
+Love Island gossip one minute, vaccine chat the next, dont tell me I'm not highbrow 😂",1,0,2021-06-30 19:52:28
+"Redman - Green Island
+KRS One - Black Cop
+G Perico - All Blue
+Big L - All Black
+Black Moon - Black Smif-n-Wessun 
+CNN - Black Gangstas
+DJ Quik - Sweet Black Pussy
+Talib &amp; Mos - Brown Skin Lady
+D’Angelo - Brown Sugar
+Above The Law - Black Superman
+Heavy D - Black Coffee https://t.co/juFEECl8Iz",0,0,2021-06-30 19:46:24
+"Hawaiian coffee has historically been synonymous with Kona, but more and more specialty coffee being produced off the Big Island, that may no longer with the case. https://t.co/KEh9HCHDj5",0,3,2021-06-30 19:28:09
+"Hawaiian coffee has historically been synonymous with Kona, but more and more specialty coffee being produced off the Big Island, that may no longer with the case. https://t.co/KEh9HCHDj5",6,3,2021-06-30 19:21:08
+@zacdixon any coffee recs nearby? looks like there’s some sort of cafe/market situation on the island too,0,0,2021-06-30 18:49:50
+"@NoMBeMusic thats dope.lived there a few years. was a great place for my brain.
+
+peep Island Brew in hawaii Kai if you need a dope laptop coffee spot. its #1. made hella beats there",3,0,2021-06-30 18:43:55
+"@carpediemeire @AlisonAndalucia @FitLifeTravel @aneasyjourney @vinnenroute @tangoandrakija @epicureanexpats @smtownplussize @sisbehaving @bl2life @OutoftheOffice8 @DeterminedTrav @SouthernerSays @orcadianabroad @KaliTravel @BerkeleySqB @GoodLifeWithIQ @SunhatsC @asadamgoes @MaysamAdventur1 @CoconutLands @CocktailCarryOn @JourneyHeroApp @savvycaligirl @ForeverLostInT2 @OfficialBoarder A little late today, so we'll be commenting in the morning over coffee. Who'd have thought New York had wineries, mansions, and beaches in easy reach. https://t.co/KXYaR7U7Us or that you could stay in a lux farm stay in the same region. Save this one for a romantic mid-trip break",0,6,2021-06-30 17:57:23
+"@JavaHouseCoffee @lithohedron This is what I love about Twitter - @lithohedron and I, on the west coast of Canada (I'm on an island off the coast) are talking coffee, and a friendly company in Indiana in the USA pops by to join in. Also, great memes, @JavaHouseCoffee! #connectingtheworld #communityeverywhere",2,0,2021-06-30 17:48:34
+Read Treasure Island and enjoy some delicious coffee from a red solo cup.,0,0,2021-06-30 17:46:11
+@ChrisWalkerCBC Enjoy your vacation time. You mentioned going to the island. If you get to Ucluelet be sure to have coffee at The Foggy Bean #bestbeans #mysistersbiz #westcoast,0,0,2021-06-30 17:45:48
+"@newman_geoff Very sad, the fact that we are an island seems to make no difference with the current arrangements.
+When will people wake up and smell the coffee and realise the gravity of the situation, vehicle crime is out of control and so are our borders in both directions.",1,0,2021-06-30 17:27:35
+"Oregon:
+Legal cocaine, legal meth, legal heroin, racists
+
+Pennsylvania:
+Quakers, Liberty Bell, Philly Cheesesteaks, 76ers fraud
+
+Rhode Island:
+Hurricanes, coffee, pride, silverware
+
+South Carolina:
+Racists, rednecks, country, always seems to start shit",0,0,2021-06-30 17:24:40
+Check out Sakura Plantation Home Paul Brent  Palm Trees Island Ocean Coffee Mug Tropical  https://t.co/mCHE2qIPaQ via @eBay,0,1,2021-06-30 17:21:33
+"A statue of Hawaiian King Kamehameha the Great, Wailoa State Park in #Hilo #Hawaii on the Big Island. 🌺
+#BigIsland #CLS #FineArtAmerica 
+
+https://t.co/peNFcAJwxi
+Card https://t.co/smtVDAHYzL
+Mug https://t.co/cpcVwD6XrH 
+Jigsaw Puzzle 🧩  https://t.co/Hjgrns6H29 @FineArtAmerica https://t.co/M4ffoswJl0",0,40,2021-06-30 17:07:50
+"@ImVictoriaPratt Alright alright alright I'll put down my butter coffee and dozen donuts. Maybe run a mile or two. Now that I've been yelled at and all..
+Kidding. You gorgeous mermaid you. Make sure to find some baked manapua and some malasadas. You won't find them at the same place. What island?",8,0,2021-06-30 17:01:18
+"If you were left stranded on a desert island, which friend would you bring with you? 👫 — probably coffee, he’s my bubby and i’d never get bored with him there. https://t.co/DgSopYympm",1,0,2021-06-30 16:40:42
+"@MsHodl Big Island, HI!.  Not too big or small.  1 of the most ecologically diverse places anywhere.  Contains I think 9 of the 13 climate zones.  Coffee farms, black sand beaches, 1 of 4 green sand beaches in the world, star gazing, swim with mantas, volcano national park, list goes on!",3,0,2021-06-30 16:07:08
+⭐️ Love Island winner &amp; Irish Olympian 🇮🇪 Greg O’Shea sipping an iced coffee with friends in sunny Dalkey #spotted #Dublin,0,0,2021-06-30 15:43:39
+"The @NantucketPolice have not received any new leads or information about the break-in at Island Coffee last week.
+
+Lt. Angus MacVicar is urging anyone with information or tips to call the Crime Tip Hotline at 508-228-3626 and can stay completely anonymous. @InkyM https://t.co/5KHVbslG7C",0,1,2021-06-30 15:21:52
+"God almighty. Away for a month and the garden was tidy. Came back and it’s like the triffids meets the island of Doctor Moreau. I’ve been doing the kind of gardening Rambo does. 
+
+I’d really like to find the bastard that invented bindweed and staple their head to a coffee table.",8,0,2021-06-30 15:19:18
+"@carpediemeire @AlisonAndalucia @FitLifeTravel @aneasyjourney @vinnenroute @tangoandrakija @epicureanexpats @smtownplussize @sisbehaving @bl2life @OutoftheOffice8 @DeterminedTrav @SouthernerSays @orcadianabroad @KaliTravel @BerkeleySqB @GoodLifeWithIQ @SunhatsC @asadamgoes @MaysamAdventur1 @CoconutLands @CocktailCarryOn @JourneyHeroApp @savvycaligirl @ForeverLostInT2 @OfficialBoarder A little late today, so we'll be commenting in the morning over coffee. Who'd have thought New York had wineries, mansions, and beaches in easy reach. https://t.co/KXYaR7U7Us or that you could stay in a lux farm stay in the same region. Save this one for a romantic mid-trip break",0,6,2021-06-30 15:01:40
+Check out Sakura Plantation Home Paul Brent  Palm Trees Island Ocean Coffee Mug Tropical  https://t.co/mCHE2qIPaQ via @eBay,1,1,2021-06-30 14:49:06
+"If Rhode Island’s legislators implement this proposed beverage tax, it will threaten the production of many locally produced beverages... including Del’s Lemonade, Autocrat Coffee Syrup and Granny Squibb’s iced tea. Read more from @projo:
+https://t.co/nAuyTGxk7S",1,3,2021-06-30 14:01:22
+"A statue of Hawaiian King Kamehameha the Great, Wailoa State Park in #Hilo #Hawaii on the Big Island. 🌺
+#BigIsland #CLS #FineArtAmerica 
+
+https://t.co/peNFcAJwxi
+Card https://t.co/smtVDAHYzL
+Mug https://t.co/cpcVwD6XrH 
+Jigsaw Puzzle 🧩  https://t.co/Hjgrns6H29 @FineArtAmerica https://t.co/M4ffoswJl0",0,40,2021-06-30 13:48:40
+"A statue of Hawaiian King Kamehameha the Great, Wailoa State Park in #Hilo #Hawaii on the Big Island. 🌺
+#BigIsland #CLS #FineArtAmerica 
+
+https://t.co/peNFcAJwxi
+Card https://t.co/smtVDAHYzL
+Mug https://t.co/cpcVwD6XrH 
+Jigsaw Puzzle 🧩  https://t.co/Hjgrns6H29 @FineArtAmerica https://t.co/M4ffoswJl0",0,40,2021-06-30 13:48:02
+"The @NantucketPolice have not received any new leads or information about the break-in at Island Coffee last week.
+
+Lt. Angus MacVicar is urging anyone with information or tips to call the Crime Tip Hotline at 508-228-3626 and can stay completely anonymous. @InkyM https://t.co/5KHVbslG7C",3,1,2021-06-30 13:39:12
+"Oil off the coast of #OrtleyBeach? Learn more in ""A Beach Called Ortley: The Story of Our Barrier Island and its Surroundings,"" a 83-page full-color mini coffee table book.
+$45 - Proceeds benefit Friends of Ortley Beach. Order online https://t.co/vzkJqtpaDk
+#amreading #books https://t.co/pxt4v5nlXb",0,0,2021-06-30 13:35:03
+"My homie sent a Kpop brief from a big label that asks for a beat similar to “My Time” (good luck) ..and the same brief asks for a beat like “Island” by Eric Bellinger.. 🤔🧐 
+
+1/2 flattered 1/2 annoyed.. you want my seasoning, but from somebody else’s kitchen? 🤣",0,2344,2021-06-30 13:17:52
+"Dreaming of coffee, cliffside in Bali. There is so much magic on that tiny island. I can't wait till we can go back! 🌺
+
+#piyogapants https://t.co/8cvnyzJFAC",0,0,2021-06-30 13:02:43
+what Simon &amp; Garfunkel failed to account for is that maybe I am a rock and an island,0,0,2021-06-30 12:53:33
+"A statue of Hawaiian King Kamehameha the Great, Wailoa State Park in #Hilo #Hawaii on the Big Island. 🌺
+#BigIsland #CLS #FineArtAmerica 
+
+https://t.co/peNFcAJwxi
+Card https://t.co/smtVDAHYzL
+Mug https://t.co/cpcVwD6XrH 
+Jigsaw Puzzle 🧩  https://t.co/Hjgrns6H29 @FineArtAmerica https://t.co/M4ffoswJl0",0,40,2021-06-30 12:20:13
+"@thomaskaine5 I miss my paper papers.  My little island has a weekly paper only.  I used to start my day with two newspapers and a cup of coffee and enforced silence. Not anymore, sniff.",1,0,2021-06-30 11:54:01
+"Coral and Limestone Beach, Great Abaco Island, The Bahamas #Bahamas #FineArtAmerica #CLS 
+#ArtForSale
+https://t.co/5Uk1lc10pm
+
+Beach Towel https://t.co/3J6tY6S2b0
+
+Pillow https://t.co/X0D3Q3hAZg
+
+Mug https://t.co/54jvH1KFus
+Jigsaw Puzzle 🧩
+https://t.co/FUt1FkvDrx @FineArtAmerica https://t.co/lYEvxSegcZ",0,44,2021-06-30 11:47:41
+"#Bahamas Fishing Pier, Great Abaco Island.
+#GreatAbaco #FineArtAmerica #CLS
+#ArtForSale 
+All Products: https://t.co/2BPDbEIvId
+Card https://t.co/rdF8a5UdI2
+Jigsaw Puzzle 🧩https://t.co/JgTO9ibRYw
+Shower Curtain https://t.co/u4G7N6wZv2
+Mug https://t.co/AcDOP7ptZb @FineArtAmerica https://t.co/RWMKVMo0N1",0,47,2021-06-30 11:47:36
+my brothers going to the local shawarma place to get everyone sandwiches … giving very much curtis pritchard love island coffee moment vibes,4,0,2021-06-30 11:44:46
+"get your coffee from divine coffee 디바인커피when you go to udo island ☕️😋
+https://t.co/NqMckiD2z6 https://t.co/RLO2X4af4K",0,94,2021-06-30 11:17:12
+"Good Morning, I've got the coffee on for you.",0,0,2021-06-30 11:01:20
+Read Treasure Island and gulp down some grape soda out of a irish coffee glass.,0,0,2021-06-30 10:35:35
+"""liking coffee isn't a personality"" 
+""reading books isn't a personality"" 
+""watching love island isn't a personality"" 
+
+what is a personality? moaning? grow up",0,4,2021-06-30 10:21:49
+"【備忘】ver.2
+
+6/30
+LOKI
+American Graffiti
+Coffee and Cigarettes
+
+7/1
+Godzilla
+Kong: Skull Island
+Godzilla: King of the Monsters
+
+7/2
+Godzilla vs. Kong
+The Tomorrow War
+
+7/3
+dot the i
+Eastern Promises
+
+7/4
+Ed Wood
+eXistenZ
+Gold
+
+7/5
+Into the Wild
+
+7/6
+MATANDO CABOS",0,0,2021-06-30 09:45:16
+@minishwoods there is NO fucking way u can fit a island ur right... but u could probably fit a little coffee/storage area next to the counter on the far right? like this. i think it'd be cute https://t.co/R5KMgGI2mp,0,0,2021-06-30 09:32:41
+"Midsummer Island Adventure 🏖☀️
+#GenshinImpact #原神 @laura_stahl @StephSouthVO https://t.co/3qj6rjYTnS",0,124,2021-06-30 09:32:24
+"""liking coffee isn't a personality"" 
+""reading books isn't a personality"" 
+""watching love island isn't a personality"" 
+
+what is a personality? moaning? grow up",0,4,2021-06-30 09:17:40
+"""liking coffee isn't a personality"" 
+""reading books isn't a personality"" 
+""watching love island isn't a personality"" 
+
+what is a personality? moaning? grow up",43,4,2021-06-30 09:12:25
+@PomeryKaren Have a little sip for me - I’m having ‘desk coffee’ as my view today. 😂 But I’m my mind - I’m on board with you all. Have a wonderful day on a wonderful island.,0,0,2021-06-30 07:14:50
+"And the best non-chain restaurants, coffee shops and a baggage claim that makes you feel like you’ve landed at an island airport. https://t.co/rsuM88XiFy",21,0,2021-06-30 07:12:16
+"North East Victoria Greens Fundraiser - Buy ethical Tanna Coffee and help support the farmers of Tanna Island, Vanuatu. #coffee #Greens 
+https://t.co/jvsxzbwTUF",0,0,2021-06-30 06:47:00
+"#3: memory.
+
+yachi likes to know little things about people. 
+
+the way they like their coffee, their favorite color, what they'd bring to a deserted island etc. 
+
+she'll make sure to mention these things every once and a while to make sure you know she was listening.",0,0,2021-06-30 05:43:25
+obg ft island por ter gravado morning coffee,0,0,2021-06-30 03:19:32
+"@Dorkling2 i've noticed that eating a granny smith often does a better job at keeping me awake than coffee; don't know what the exact alchemy is there, but i appreciate it",1,0,2021-06-30 03:11:58
+@kentuckychrome I have this image of you as a sasquatch stepping from Seattle onto each island whilst enjoying a coffee.,1,0,2021-06-30 02:56:23
+"【備忘】
+
+6/30
+LOKI
+American Graffiti
+Coffee and Cigarettes
+
+7/1
+Godzilla
+Kong: Skull Island
+Godzilla: King of the Monsters
+
+7/2
+Godzilla vs. Kong
+
+7/3
+dot the i
+Eastern Promises
+
+7/4
+Ed Wood
+eXistenZ
+Gold
+
+7/5
+Into the Wild
+
+7/6
+MATANDO CABOS",2,0,2021-06-30 02:15:15
+"So red snoop comes to island plays a song for me. He plays.. 
+Burger was rhe shake that they gave me. It says something about a faffnir shitting in the coffee decanter. This line isninteresring because it says quite distinctly: somebodybelse grandpa stole the entire whole shit.",0,0,2021-06-30 01:55:23
+"One Piece, Coffee Island #fanart #onepiece #digitalart #luffy #OnePiece1017 https://t.co/QruHqMRmrr",0,88,2021-06-30 01:08:32
+"@XXXL74 Only trust Kona Coffee.    
+
+Kona coffee makes up about 95% of all coffee being grown on the Big Island. The other 5% is mostly made up of beans grown in Ka'u, Puna and along the Hamakua coast. There is even some coffee industry on the other Hawaiian islands https://t.co/HzrCqLMB54",0,0,2021-06-30 00:42:43
+Read Treasure Island and gulp down some water out of a irish coffee glass.,0,0,2021-06-30 00:35:53
+"@carpediemeire @AlisonAndalucia @FitLifeTravel @aneasyjourney @vinnenroute @tangoandrakija @epicureanexpats @smtownplussize @sisbehaving @bl2life @OutoftheOffice8 @DeterminedTrav @SouthernerSays @orcadianabroad @KaliTravel @BerkeleySqB @GoodLifeWithIQ @SunhatsC @asadamgoes @MaysamAdventur1 @CoconutLands @CocktailCarryOn @JourneyHeroApp @savvycaligirl @ForeverLostInT2 @OfficialBoarder A little late today, so we'll be commenting in the morning over coffee. Who'd have thought New York had wineries, mansions, and beaches in easy reach. https://t.co/KXYaR7U7Us or that you could stay in a lux farm stay in the same region. Save this one for a romantic mid-trip break",0,6,2021-06-30 00:35:39

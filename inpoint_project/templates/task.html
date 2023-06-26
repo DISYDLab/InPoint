@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Status</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1 id="status">Status: Pending</h1>
+    <div id="result"></div>
+
+    <script>
+        function fetchStatus() {
+            $.get('/status/{{ task_id }}', function(data) {
+                $('#status').text('Status: ' + data.state);
+                if (data.state === 'SUCCESS') {
+                    var urls = data.result;
+                    for (var i = 0; i < urls.length; i++) {
+                        var a = document.createElement('a');
+                        var linkText = document.createTextNode(urls[i]);
+                        a.appendChild(linkText);
+                        a.href = urls[i];
+                        a.style.display = 'block';
+                        document.getElementById('result').appendChild(a);
+                    }
+                } else {
+                    setTimeout(fetchStatus, 1000);
+                }
+            });
+        }
+
+        $(document).ready(function() {
+            fetchStatus();
+        });
+    </script>
+</body>
+</html>
+

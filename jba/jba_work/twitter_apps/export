@@ -1,0 +1,75 @@
+
+#---------------------------------------------------------------------
+# TWITTER APPS 
+#---------------------------------------------------------------------
+# tweets_search_api_coffee_island_sdf.py
+#---------------------------------------------------------------------
+
+spark-submit -v \
+ --master yarn \
+ --deploy-mode client \
+ --name tweets_search_api_coffee_island_sdf_Yarn_Client \
+ --driver-memory 4096m \
+ --driver-cores 1 \
+ --driver-memory 8192m \
+ --executor-cores 2 \
+ --num-executors 1 \
+ --conf spark.suffle.service.enabled=true \
+ --conf spark.dynamicAllocation.enabled=true \
+ --packages org.mongodb.spark:mongo-spark-connector_2.12:3.0.1 \
+ ~/Documents/jba/twitter_apps/tweets_search_api_coffee_island_sdf.py
+ 
+
+ spark-submit -v \
+ --master local \
+ --driver-memory 4096m \
+ --driver-cores 1 \
+ --driver-memory 8192m \
+ --executor-cores 2 \
+ --num-executors 1 \
+ --conf spark.suffle.service.enabled=true \
+ --conf spark.dynamicAllocation.enabled=true \
+ --packages org.mongodb.spark:mongo-spark-connector_2.12:3.0.1 \
+ ~/Documents/jba/twitter_apps/tweets_search_api_coffee_island_sdf.py
+ 
+ 
+#---------------------------------------------------------------------------
+import site
+import sys
+
+site.addsitedir('/the/path')  # Always appends to end
+print(sys.path)
+
+python -c import site;import sys;site.addsitedir('/the/path');print(sys.path)
+
+----------------------------------------------------------------------------
+spark_nltk_nlp_test.py
+----------------------------------------------------------------------------
+
+spark-submit -v \
+ --master yarn \
+ --deploy-mode client \
+ --name spark_nltk_nlp_test_sdf_Yarn_Client \
+ --driver-memory 4096m \
+ --driver-cores 1 \
+ --driver-memory 8192m \
+ --executor-cores 2 \
+ --num-executors 1 \
+ --conf spark.suffle.service.enabled=true \
+ --conf spark.dynamicAllocation.enabled=true \
+ --packages com.johnsnowlabs.nlp:spark-nlp_2.12:3.2.1 \
+ ~/Documents/jba/twitter_apps/spark_nltk_nlp_test.py
+ 
+ #-----------------------------------------------------------------------------
+ # IN PROBLEM
+ #Run First Time_____________________________________
+ spark-submit -v \
+ --master local \
+ --name spark_nltk_nlp_test_sdf_Local \
+ --driver-memory 8192m \
+ --driver-cores 1 \
+--packages com.johnsnowlabs.nlp:spark-nlp_2.12:3.2.1 \
+ ~/Documents/jba/twitter_apps/spark_nltk_nlp_test.py
+ 
+ 
+

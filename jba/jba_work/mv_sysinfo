@@ -1,0 +1,7 @@
+NODE=$(hostname)
+dataset="$1"
+n=$(($2))
+ENV=env${n}
+#echo $NODE  $ENV 
+mv ~/sysinfo4_VT.log ~/${dataset}_${NODE}_${ENV}
+#echo ~/sysinfo4_VT.log ~/${dataset}_${NODE}_${ENV}

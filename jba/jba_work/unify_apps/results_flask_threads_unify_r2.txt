@@ -1,0 +1,67 @@
+{
+    "result": [
+        {
+            "compound_nltk": 0.4364523076923076,
+            "created_at": "Sat, 10 Jul 2021 00:00:00 GMT",
+            "negative_nltk": 0.02847692307692308,
+            "neutral_nltk": 0.8181230769230768,
+            "positive_nltk": 0.15336923076923073,
+            "sentiment": 1,
+            "tweets": 65
+        },
+        {
+            "compound_nltk": 0.3649783783783783,
+            "created_at": "Fri, 09 Jul 2021 00:00:00 GMT",
+            "negative_nltk": 0.01710810810810811,
+            "neutral_nltk": 0.8549729729729724,
+            "positive_nltk": 0.12793243243243244,
+            "sentiment": 1,
+            "tweets": 74
+        },
+        {
+            "compound_nltk": 0.29746347826086944,
+            "created_at": "Thu, 08 Jul 2021 00:00:00 GMT",
+            "negative_nltk": 0.022139130434782613,
+            "neutral_nltk": 0.8682521739130437,
+            "positive_nltk": 0.10959999999999996,
+            "sentiment": 1,
+            "tweets": 115
+        },
+        {
+            "compound_nltk": 0.15158690476190473,
+            "created_at": "Wed, 07 Jul 2021 00:00:00 GMT",
+            "negative_nltk": 0.009619047619047619,
+            "neutral_nltk": 0.9337738095238096,
+            "positive_nltk": 0.05659523809523809,
+            "sentiment": 1,
+            "tweets": 84
+        },
+        {
+            "compound_nltk": 0.3699553846153845,
+            "created_at": "Mon, 12 Jul 2021 00:00:00 GMT",
+            "negative_nltk": 0.016984615384615386,
+            "neutral_nltk": 0.850876923076923,
+            "positive_nltk": 0.13213846153846154,
+            "sentiment": 1,
+            "tweets": 65
+        },
+        {
+            "compound_nltk": 0.2091320000000001,
+            "created_at": "Sun, 11 Jul 2021 00:00:00 GMT",
+            "negative_nltk": 0.04322,
+            "neutral_nltk": 0.84028,
+            "positive_nltk": 0.11654000000000002,
+            "sentiment": 1,
+            "tweets": 50
+        },
+        {
+            "compound_nltk": 0.35817225806451597,
+            "created_at": "Tue, 13 Jul 2021 00:00:00 GMT",
+            "negative_nltk": 0.01238064516129032,
+            "neutral_nltk": 0.8944193548387095,
+            "positive_nltk": 0.09319354838709676,
+            "sentiment": 1,
+            "tweets": 155
+        }
+    ]
+}

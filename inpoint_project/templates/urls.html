@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profiles</title>
+</head>
+<body>
+    <h3>Profiles:</h3>
+    <div id="urls">
+        {% for url in urls %}
+            <p><a href="{{ url }}">{{ url }}</a></p>
+        {% endfor %}
+    </div>
+</body>
+</html>
+
