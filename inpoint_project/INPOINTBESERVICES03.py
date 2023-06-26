@@ -75,12 +75,14 @@ pqueue = Queue();
 # authorization tokens
 #consumer_key = ""
 #consumer_secret = ""
-#access_token = "
+
+#access_token = ""
 #access_token_secret = ""
 #consumer_key = ""
 #consumer_secret = ""
-#access_token = ""
-#access_token_secret = "
+#access_token = "-"
+#access_token_secret = ""
+
 
 # Connect to Twitter API using the secrets
 #auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -274,11 +276,13 @@ def get_followers(TARGETUSER, search_words, api):
 
     #consumer_key = ""
     #consumer_secret = ""
+
     #access_token = ""
     #access_token_secret = ""
     #consumer_key = ""
     #consumer_secret = ""
     #access_token = ""
+
     #access_token_secret = ""
     #nltk.download('vader_lexicon')
     #sid = SentimentIntensityAnalyzer()
@@ -328,11 +332,13 @@ def create_graph(TARGETUSER, d, search_words, q):
     G = nx.DiGraph()
     consumer_key = ""
     consumer_secret = ""
+
     access_token = ""
     access_token_secret = ""
     #consumer_key = ""
     #consumer_secret = ""
     #access_token = ""
+
     #access_token_secret = ""
     nltk.download('vader_lexicon')
     sid = SentimentIntensityAnalyzer()
@@ -743,11 +749,13 @@ def getDocumentAnalytics(myurl):
 def scraptweets_sentiment(requestid, fromuser,htgs, search_words, date_since, numTweets, numRuns, q):
     consumer_key = ""
     consumer_secret = ""
+
     access_token = ""
     access_token_secret = ""
     #consumer_key = ""
     #consumer_secret = ""
     #access_token = ""
+
     #access_token_secret = ""
     nltk.download('vader_lexicon')
     sid = SentimentIntensityAnalyzer()
