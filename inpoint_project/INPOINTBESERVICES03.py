@@ -73,14 +73,14 @@ pqueue = Queue();
 
 
 # authorization tokens
-#consumer_key = "pw0ihLFxH3nwDrd4HBd7pqUrc"
-#consumer_secret = "nh8GxSyT9ebV32pb4urtwlVnE7bxbPwCYYeVnI9TmT51Y71CDk"
-#access_token = "1360011857969479682-iLrxBUlqdtExwkqiN9iZsHYDXIFTZz"
-#access_token_secret = "fccgx7QK05sXrURyzcCAPDtZOvEfHtOdo7G5sXHjVshdm"
-#consumer_key = "f9n1D1rcKgULFRTKdelDUOtz2"
-#consumer_secret = "WrcBiZ2l1RXumwNE7IkpyV6Yj7bjuPteUj47FgswkLlSvISnSK"
-#access_token = "1415070882683293707-fZTh0jLU9opO5WKzGJW6vVkNKVvrRf"
-#access_token_secret = "FnhwJ8YMkubAfZz8tVZBd0CRcnlzf0G4PPt0qFlnEOrIE"
+#consumer_key = ""
+#consumer_secret = ""
+#access_token = ""
+#access_token_secret = ""
+#consumer_key = ""
+#consumer_secret = ""
+#access_token = "-"
+#access_token_secret = ""
 
 # Connect to Twitter API using the secrets
 #auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -272,14 +272,14 @@ def scraptweets(TARGETUSER, search_words, date_since, numTweets, numRuns):
 def get_followers(TARGETUSER, search_words, api):
     #print('TARGETUSER = ', TARGETUSER)
 
-    #consumer_key = "pw0ihLFxH3nwDrd4HBd7pqUrc"
-    #consumer_secret = "nh8GxSyT9ebV32pb4urtwlVnE7bxbPwCYYeVnI9TmT51Y71CDk"
-    #access_token = "1360011857969479682-iLrxBUlqdtExwkqiN9iZsHYDXIFTZz"
-    #access_token_secret = "fccgx7QK05sXrURyzcCAPDtZOvEfHtOdo7G5sXHjVshdm"
-    #consumer_key = "f9n1D1rcKgULFRTKdelDUOtz2"
-    #consumer_secret = "WrcBiZ2l1RXumwNE7IkpyV6Yj7bjuPteUj47FgswkLlSvISnSK"
-    #access_token = "1415070882683293707-fZTh0jLU9opO5WKzGJW6vVkNKVvrRf"
-    #access_token_secret = "FnhwJ8YMkubAfZz8tVZBd0CRcnlzf0G4PPt0qFlnEOrIE"
+    #consumer_key = ""
+    #consumer_secret = ""
+    #access_token = "-"
+    #access_token_secret = ""
+    #consumer_key = ""
+    #consumer_secret = ""
+    #access_token = "-"
+    #access_token_secret = ""
     #nltk.download('vader_lexicon')
     #sid = SentimentIntensityAnalyzer()
 
@@ -326,14 +326,14 @@ def get_followers(TARGETUSER, search_words, api):
 def create_graph(TARGETUSER, d, search_words, q):
 
     G = nx.DiGraph()
-    consumer_key = "pw0ihLFxH3nwDrd4HBd7pqUrc"
-    consumer_secret = "nh8GxSyT9ebV32pb4urtwlVnE7bxbPwCYYeVnI9TmT51Y71CDk"
-    access_token = "1360011857969479682-iLrxBUlqdtExwkqiN9iZsHYDXIFTZz"
-    access_token_secret = "fccgx7QK05sXrURyzcCAPDtZOvEfHtOdo7G5sXHjVshdm"
-    #consumer_key = "f9n1D1rcKgULFRTKdelDUOtz2"
-    #consumer_secret = "WrcBiZ2l1RXumwNE7IkpyV6Yj7bjuPteUj47FgswkLlSvISnSK"
-    #access_token = "1415070882683293707-fZTh0jLU9opO5WKzGJW6vVkNKVvrRf"
-    #access_token_secret = "FnhwJ8YMkubAfZz8tVZBd0CRcnlzf0G4PPt0qFlnEOrIE"
+    consumer_key = ""
+    consumer_secret = ""
+    access_token = "-"
+    access_token_secret = ""
+    #consumer_key = ""
+    #consumer_secret = ""
+    #access_token = "-"
+    #access_token_secret = ""
     nltk.download('vader_lexicon')
     sid = SentimentIntensityAnalyzer()
 
@@ -574,8 +574,8 @@ def getProfiles(myquery, q):
     driver.get('https://www.linkedin.com/')
 
 
-    email = "vasilistsakanikas@gmail.com"
-    password = "vtsakan1983"
+    email = ""
+    password = ""
 
     actions.login(driver, email, password) # if email and password isnt given, it'll prompt in terminal
     print('check1')
@@ -741,14 +741,14 @@ def getDocumentAnalytics(myurl):
 
 
 def scraptweets_sentiment(requestid, fromuser,htgs, search_words, date_since, numTweets, numRuns, q):
-    consumer_key = "pw0ihLFxH3nwDrd4HBd7pqUrc"
-    consumer_secret = "nh8GxSyT9ebV32pb4urtwlVnE7bxbPwCYYeVnI9TmT51Y71CDk"
-    access_token = "1360011857969479682-iLrxBUlqdtExwkqiN9iZsHYDXIFTZz"
-    access_token_secret = "fccgx7QK05sXrURyzcCAPDtZOvEfHtOdo7G5sXHjVshdm"
-    #consumer_key = "f9n1D1rcKgULFRTKdelDUOtz2"
-    #consumer_secret = "WrcBiZ2l1RXumwNE7IkpyV6Yj7bjuPteUj47FgswkLlSvISnSK"
-    #access_token = "1415070882683293707-fZTh0jLU9opO5WKzGJW6vVkNKVvrRf"
-    #access_token_secret = "FnhwJ8YMkubAfZz8tVZBd0CRcnlzf0G4PPt0qFlnEOrIE"
+    consumer_key = ""
+    consumer_secret = ""
+    access_token = "-"
+    access_token_secret = ""
+    #consumer_key = ""
+    #consumer_secret = ""
+    #access_token = "-"
+    #access_token_secret = ""
     nltk.download('vader_lexicon')
     sid = SentimentIntensityAnalyzer()
 
