@@ -607,6 +607,7 @@ def getLinkedinProfiles():
     driver.get('https://www.linkedin.com/')
 
 
+
     email = ""
     password = ""
 
